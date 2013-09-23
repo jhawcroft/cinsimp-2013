@@ -1,0 +1,1583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0314985A17BEFAA500084858 /* acu_stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 0314985917BEFAA500084858 /* acu_stack.c */; };
+		0314985C17BF010300084858 /* acu_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 0314985B17BF010300084858 /* acu_error.c */; };
+		0314986017BF047600084858 /* acu_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 0314985F17BF047600084858 /* acu_mem.c */; };
+		031B245317B87BE500520385 /* xtalk_test_hdlr.c in Sources */ = {isa = PBXBuildFile; fileRef = 031B245217B87BE500520385 /* xtalk_test_hdlr.c */; };
+		0324B1A117D4281B00743271 /* acu_callback_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 0324B1A017D4281B00743271 /* acu_callback_util.c */; };
+		0324B21117D567BC00743271 /* utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324B21017D567BC00743271 /* utilities.m */; };
+		0324B21417D5A57900743271 /* xtalk_wait.c in Sources */ = {isa = PBXBuildFile; fileRef = 0324B21317D5A57900743271 /* xtalk_wait.c */; };
+		03369A4917C2DCBF00C46F0B /* acu_xtalk_dbug.c in Sources */ = {isa = PBXBuildFile; fileRef = 03369A4817C2DCBF00C46F0B /* acu_xtalk_dbug.c */; };
+		033E2113179744710023195D /* JHPropertiesPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E2112179744710023195D /* JHPropertiesPanel.m */; };
+		0342055417BF26DE00C745CD /* acu_xtalk_entry.c in Sources */ = {isa = PBXBuildFile; fileRef = 0342055317BF26DE00C745CD /* acu_xtalk_entry.c */; };
+		0342055617BF848C00C745CD /* acu_xtalk_thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 0342055517BF848C00C745CD /* acu_xtalk_thread.c */; };
+		0342623E17A5C49700E50BE9 /* stack_lpic.c in Sources */ = {isa = PBXBuildFile; fileRef = 0342623D17A5C49700E50BE9 /* stack_lpic.c */; };
+		0342624217A5CDDA00E50BE9 /* JHMenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342624117A5CDDA00E50BE9 /* JHMenubarController.m */; };
+		0342625617A5DA1A00E50BE9 /* paint_brush.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342624317A5DA1A00E50BE9 /* paint_brush.m */; };
+		0342625717A5DA1A00E50BE9 /* paint_bucket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342624417A5DA1A00E50BE9 /* paint_bucket.m */; };
+		0342625817A5DA1A00E50BE9 /* paint_eraser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342624517A5DA1A00E50BE9 /* paint_eraser.m */; };
+		0342625917A5DA1A00E50BE9 /* paint_filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342624617A5DA1A00E50BE9 /* paint_filter.m */; };
+		0342625A17A5DA1A00E50BE9 /* paint_fliprot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342624717A5DA1A00E50BE9 /* paint_fliprot.m */; };
+		0342625B17A5DA1A00E50BE9 /* paint_io.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342624917A5DA1A00E50BE9 /* paint_io.m */; };
+		0342625C17A5DA1A00E50BE9 /* paint_line.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342624A17A5DA1A00E50BE9 /* paint_line.m */; };
+		0342625D17A5DA1A00E50BE9 /* paint_pencil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342624B17A5DA1A00E50BE9 /* paint_pencil.m */; };
+		0342625E17A5DA1A00E50BE9 /* paint_scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342624C17A5DA1A00E50BE9 /* paint_scale.m */; };
+		0342625F17A5DA1A00E50BE9 /* paint_select.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342624D17A5DA1A00E50BE9 /* paint_select.m */; };
+		0342626017A5DA1A00E50BE9 /* paint_shape_bas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342624E17A5DA1A00E50BE9 /* paint_shape_bas.m */; };
+		0342626117A5DA1A00E50BE9 /* paint_shape_free.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342624F17A5DA1A00E50BE9 /* paint_shape_free.m */; };
+		0342626217A5DA1A00E50BE9 /* paint_shape_poly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342625017A5DA1A00E50BE9 /* paint_shape_poly.m */; };
+		0342626317A5DA1A00E50BE9 /* paint_spray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342625117A5DA1A00E50BE9 /* paint_spray.m */; };
+		0342626417A5DA1A00E50BE9 /* paint_util.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342625217A5DA1A00E50BE9 /* paint_util.m */; };
+		0342626517A5DA1A00E50BE9 /* paint_xform.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342625317A5DA1A00E50BE9 /* paint_xform.m */; };
+		0342626617A5DA1A00E50BE9 /* paint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342625517A5DA1A00E50BE9 /* paint.m */; };
+		0342628917A727D700E50BE9 /* JHCardView+UIActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342628817A727D700E50BE9 /* JHCardView+UIActions.m */; };
+		0342628D17A72C5A00E50BE9 /* JHCardView+UIEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342628C17A72C5A00E50BE9 /* JHCardView+UIEvents.m */; };
+		0342629017A72EA500E50BE9 /* JHCardView+LayoutSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342628F17A72EA500E50BE9 /* JHCardView+LayoutSelection.m */; };
+		0342629417A730BA00E50BE9 /* JHCardView+UIDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342629317A730BA00E50BE9 /* JHCardView+UIDrawing.m */; };
+		0342629717A7313A00E50BE9 /* JHCardView+LayoutManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342629617A7313A00E50BE9 /* JHCardView+LayoutManagement.m */; };
+		0342629A17A7336000E50BE9 /* JHCardView+Find.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342629917A7336000E50BE9 /* JHCardView+Find.m */; };
+		0342629D17A737D400E50BE9 /* JHCardView+Paint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342629C17A737D300E50BE9 /* JHCardView+Paint.m */; };
+		0345F30417C1CC720098DF67 /* acu_xtalk_tglue.c in Sources */ = {isa = PBXBuildFile; fileRef = 0345F30317C1CC720098DF67 /* acu_xtalk_tglue.c */; };
+		0345F30717C1CFF00098DF67 /* acu_xtalk_uglue.c in Sources */ = {isa = PBXBuildFile; fileRef = 0345F30617C1CFF00098DF67 /* acu_xtalk_uglue.c */; };
+		0345F31217C205710098DF67 /* JHMessageWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0345F31117C205710098DF67 /* JHMessageWatcher.m */; };
+		0345F31417C205810098DF67 /* JHVariableWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0345F31317C205810098DF67 /* JHVariableWatcher.m */; };
+		0345F31617C205850098DF67 /* JHVariableWatcherEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0345F31517C205850098DF67 /* JHVariableWatcherEditor.m */; };
+		0345F31B17C205A50098DF67 /* JHVariableWatcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0345F31A17C205A50098DF67 /* JHVariableWatcher.xib */; };
+		0345F31D17C205AA0098DF67 /* JHMessageWatcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0345F31C17C205AA0098DF67 /* JHMessageWatcher.xib */; };
+		0345F31F17C205FB0098DF67 /* acu_xtalk_vars.c in Sources */ = {isa = PBXBuildFile; fileRef = 0345F31E17C205FB0098DF67 /* acu_xtalk_vars.c */; };
+		0355A0A9177D17EE009956E0 /* DocIconA.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 0355A0A8177D17EE009956E0 /* DocIconA.iconset */; };
+		0355A0C2177D2109009956E0 /* AppIconPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 0355A0C1177D2109009956E0 /* AppIconPic.png */; };
+		0355A0C5177D21E7009956E0 /* stack_idtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 0355A0C3177D21E7009956E0 /* stack_idtable.c */; };
+		035A6BB117A4BA600003D168 /* JHLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A6BB017A4BA600003D168 /* JHLayerView.m */; };
+		035A6BBD17A4FF230003D168 /* JHCursorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A6BBC17A4FF230003D168 /* JHCursorController.m */; };
+		035A6BC717A4FF570003D168 /* CursorBrowse.png in Resources */ = {isa = PBXBuildFile; fileRef = 035A6BC017A4FF570003D168 /* CursorBrowse.png */; };
+		035A6BC817A4FF570003D168 /* CursorBucket.png in Resources */ = {isa = PBXBuildFile; fileRef = 035A6BC117A4FF570003D168 /* CursorBucket.png */; };
+		035A6BC917A4FF570003D168 /* CursorCrosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = 035A6BC217A4FF570003D168 /* CursorCrosshair.png */; };
+		035A6BCA17A4FF570003D168 /* CursorEraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 035A6BC317A4FF570003D168 /* CursorEraser.png */; };
+		035A6BCB17A4FF570003D168 /* CursorEyedropper.png in Resources */ = {isa = PBXBuildFile; fileRef = 035A6BC417A4FF570003D168 /* CursorEyedropper.png */; };
+		035A6BCC17A4FF570003D168 /* CursorPencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 035A6BC517A4FF570003D168 /* CursorPencil.png */; };
+		035A6BCD17A4FF570003D168 /* CursorRound.png in Resources */ = {isa = PBXBuildFile; fileRef = 035A6BC617A4FF570003D168 /* CursorRound.png */; };
+		035A6BCF17A500080003D168 /* brush_mask_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 035A6BCE17A500080003D168 /* brush_mask_1.png */; };
+		035A6BD117A500270003D168 /* ToolPaletteIcons.png in Resources */ = {isa = PBXBuildFile; fileRef = 035A6BD017A500270003D168 /* ToolPaletteIcons.png */; };
+		035A6BD317A5020C0003D168 /* IconPadlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 035A6BD217A5020C0003D168 /* IconPadlock.png */; };
+		035A6BDC17A503140003D168 /* JHColourPalette.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035A6BD717A503140003D168 /* JHColourPalette.xib */; };
+		035A6BDD17A503140003D168 /* JHColourPaletteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A6BD917A503140003D168 /* JHColourPaletteController.m */; };
+		035A6BDE17A503140003D168 /* JHColourPaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A6BDB17A503140003D168 /* JHColourPaletteView.m */; };
+		035A6BE417A5031F0003D168 /* JHLineSizePalette.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035A6BDF17A5031F0003D168 /* JHLineSizePalette.xib */; };
+		035A6BE517A5031F0003D168 /* JHLineSizePaletteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A6BE117A5031F0003D168 /* JHLineSizePaletteController.m */; };
+		035A6BE617A5031F0003D168 /* JHLineSizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A6BE317A5031F0003D168 /* JHLineSizeView.m */; };
+		035A6BEC17A5032E0003D168 /* JHToolPalette.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035A6BE717A5032E0003D168 /* JHToolPalette.xib */; };
+		035A6BED17A5032E0003D168 /* JHToolPaletteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A6BE917A5032E0003D168 /* JHToolPaletteController.m */; };
+		035A6BEE17A5032E0003D168 /* JHToolPaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A6BEB17A5032E0003D168 /* JHToolPaletteView.m */; };
+		035A6BF117A503640003D168 /* JHTearOffMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A6BF017A503640003D168 /* JHTearOffMenuView.m */; };
+		036E46F2176D34290041E9F6 /* stack_serbuff.c in Sources */ = {isa = PBXBuildFile; fileRef = 036E46F0176D34290041E9F6 /* stack_serbuff.c */; };
+		036E471F176F14C20041E9F6 /* stack_find.c in Sources */ = {isa = PBXBuildFile; fileRef = 036E471E176F14C20041E9F6 /* stack_find.c */; };
+		036E4721176F17C50041E9F6 /* stack_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 036E4720176F17C50041E9F6 /* stack_util.c */; };
+		036E4723176F1B6C0041E9F6 /* stack_utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 036E4722176F1B6C0041E9F6 /* stack_utf8.c */; };
+		036E47491770283A0041E9F6 /* JHMessagePalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 036E47471770283A0041E9F6 /* JHMessagePalette.m */; };
+		036E474A1770283A0041E9F6 /* JHMessagePalette.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036E47481770283A0041E9F6 /* JHMessagePalette.xib */; };
+		036E47A617719E7C0041E9F6 /* JHCardSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 036E47A417719E7C0041E9F6 /* JHCardSize.m */; };
+		036E47A717719E7C0041E9F6 /* JHCardSize.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036E47A517719E7C0041E9F6 /* JHCardSize.xib */; };
+		036E47AA17719F400041E9F6 /* JHCardSizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036E47A917719F400041E9F6 /* JHCardSizeView.m */; };
+		037A15CC17BC44800080FC4F /* xtalk_platform_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 037A15CB17BC44800080FC4F /* xtalk_platform_posix.c */; };
+		037DAADB17B9F28700AD6EBC /* xtalk_test_hdlr_loop.c in Sources */ = {isa = PBXBuildFile; fileRef = 037DAADA17B9F28700AD6EBC /* xtalk_test_hdlr_loop.c */; };
+		037DAADE17B9F29500AD6EBC /* xtalk_test_hdlr_cond.c in Sources */ = {isa = PBXBuildFile; fileRef = 037DAADD17B9F29500AD6EBC /* xtalk_test_hdlr_cond.c */; };
+		037DAAE017B9F3FD00AD6EBC /* xtalk_test_hdlr_stmt.c in Sources */ = {isa = PBXBuildFile; fileRef = 037DAADF17B9F3FD00AD6EBC /* xtalk_test_hdlr_stmt.c */; };
+		037DDBC41765D10100EECF41 /* JHAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DDBC31765D10100EECF41 /* JHAbout.m */; };
+		037DDBC71765D16600EECF41 /* JHAbout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037DDBC61765D16600EECF41 /* JHAbout.xib */; };
+		037DDBD71765DC0D00EECF41 /* JHProtectStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DDBD51765DC0D00EECF41 /* JHProtectStack.m */; };
+		037DDBD81765DC0D00EECF41 /* JHProtectStack.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037DDBD61765DC0D00EECF41 /* JHProtectStack.xib */; };
+		03824EFB177921CF00D3A8CE /* stack_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 03824EFA177921CF00D3A8CE /* stack_error.c */; };
+		03824EFD177924A000D3A8CE /* stack_seriz.c in Sources */ = {isa = PBXBuildFile; fileRef = 03824EFC177924A000D3A8CE /* stack_seriz.c */; };
+		03824EFF177924B500D3A8CE /* stack_caches.c in Sources */ = {isa = PBXBuildFile; fileRef = 03824EFE177924B500D3A8CE /* stack_caches.c */; };
+		03824F011779256900D3A8CE /* stack_undo.c in Sources */ = {isa = PBXBuildFile; fileRef = 03824F001779256800D3A8CE /* stack_undo.c */; };
+		03824F031779264500D3A8CE /* stack_props.c in Sources */ = {isa = PBXBuildFile; fileRef = 03824F021779264500D3A8CE /* stack_props.c */; };
+		03824F071779276500D3A8CE /* stack_widg.c in Sources */ = {isa = PBXBuildFile; fileRef = 03824F061779276400D3A8CE /* stack_widg.c */; };
+		03824F091779291100D3A8CE /* stack_cards.c in Sources */ = {isa = PBXBuildFile; fileRef = 03824F081779291000D3A8CE /* stack_cards.c */; };
+		03861E0E173CD01500665C26 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03861E0D173CD01500665C26 /* Cocoa.framework */; };
+		03861E18173CD01500665C26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03861E16173CD01500665C26 /* InfoPlist.strings */; };
+		03861E1A173CD01500665C26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03861E19173CD01500665C26 /* main.m */; };
+		03861E1E173CD01500665C26 /* Acknowledgements.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03861E1C173CD01500665C26 /* Acknowledgements.rtf */; };
+		03861E21173CD01500665C26 /* JHDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 03861E20173CD01500665C26 /* JHDocument.m */; };
+		03861E24173CD01500665C26 /* JHDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03861E22173CD01500665C26 /* JHDocument.xib */; };
+		03861E27173CD01500665C26 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03861E25173CD01500665C26 /* MainMenu.xib */; };
+		03861E2F173CD04500665C26 /* JHCardView+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 03861E2E173CD04500665C26 /* JHCardView+Base.m */; };
+		03861E32173CE1AE00665C26 /* JHSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03861E31173CE1AE00665C26 /* JHSelectorView.m */; };
+		039FD94D1795F9AC00F823A0 /* stack_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 039FD94C1795F9AC00F823A0 /* stack_mem.c */; };
+		039FD9571796552500F823A0 /* stack_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 039FD9561796552500F823A0 /* stack_test.c */; };
+		03A25BBF17927894009DCFED /* AppIcon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 03A25BBE17927894009DCFED /* AppIcon.iconset */; };
+		03A25BCB17927907009DCFED /* sorter.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BC917927907009DCFED /* sorter.c */; };
+		03A25BF517927B76009DCFED /* xtalk_ast.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BD117927B76009DCFED /* xtalk_ast.c */; };
+		03A25BF617927B76009DCFED /* xtalk_bnf.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BD217927B76009DCFED /* xtalk_bnf.c */; };
+		03A25BF717927B76009DCFED /* xtalk_chunk.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BD317927B76009DCFED /* xtalk_chunk.c */; };
+		03A25BF817927B76009DCFED /* xtalk_class.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BD417927B76009DCFED /* xtalk_class.c */; };
+		03A25BF917927B76009DCFED /* xtalk_cmds.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BD517927B76009DCFED /* xtalk_cmds.c */; };
+		03A25BFA17927B76009DCFED /* xtalk_cmplogic.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BD617927B76009DCFED /* xtalk_cmplogic.c */; };
+		03A25BFB17927B76009DCFED /* xtalk_const.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BD717927B76009DCFED /* xtalk_const.c */; };
+		03A25BFC17927B76009DCFED /* xtalk_engine.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BD817927B76009DCFED /* xtalk_engine.c */; };
+		03A25BFE17927B76009DCFED /* xtalk_exprs.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BDB17927B76009DCFED /* xtalk_exprs.c */; };
+		03A25BFF17927B76009DCFED /* xtalk_func.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BDC17927B76009DCFED /* xtalk_func.c */; };
+		03A25C0017927B76009DCFED /* xtalk_interp.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BDE17927B76009DCFED /* xtalk_interp.c */; };
+		03A25C0117927B76009DCFED /* xtalk_lexer.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BDF17927B76009DCFED /* xtalk_lexer.c */; };
+		03A25C0217927B76009DCFED /* xtalk_math.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BE017927B76009DCFED /* xtalk_math.c */; };
+		03A25C0317927B76009DCFED /* xtalk_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BE117927B76009DCFED /* xtalk_mem.c */; };
+		03A25C0417927B76009DCFED /* xtalk_mutate.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BE217927B76009DCFED /* xtalk_mutate.c */; };
+		03A25C0517927B76009DCFED /* xtalk_ops.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BE317927B76009DCFED /* xtalk_ops.c */; };
+		03A25C0617927B76009DCFED /* xtalk_platform_mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BE417927B76009DCFED /* xtalk_platform_mac.m */; };
+		03A25C0717927B76009DCFED /* xtalk_prop.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BE617927B76009DCFED /* xtalk_prop.c */; };
+		03A25C0817927B76009DCFED /* xtalk_refs.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BE717927B76009DCFED /* xtalk_refs.c */; };
+		03A25C0917927B76009DCFED /* xtalk_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BE817927B76009DCFED /* xtalk_string.c */; };
+		03A25C0A17927B76009DCFED /* xtalk_syn.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BE917927B76009DCFED /* xtalk_syn.c */; };
+		03A25C0B17927B76009DCFED /* xtalk_test_cmds.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BEA17927B76009DCFED /* xtalk_test_cmds.c */; };
+		03A25C0C17927B76009DCFED /* xtalk_test_exprs.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BEB17927B76009DCFED /* xtalk_test_exprs.c */; };
+		03A25C0D17927B76009DCFED /* xtalk_test_lexer.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BED17927B76009DCFED /* xtalk_test_lexer.c */; };
+		03A25C0E17927B76009DCFED /* xtalk_test_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BEE17927B76009DCFED /* xtalk_test_mem.c */; };
+		03A25C0F17927B76009DCFED /* xtalk_test_msg.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BEF17927B76009DCFED /* xtalk_test_msg.c */; };
+		03A25C1017927B76009DCFED /* xtalk_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BF017927B76009DCFED /* xtalk_test.c */; };
+		03A25C1117927B76009DCFED /* xtalk_utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BF217927B76009DCFED /* xtalk_utf8.c */; };
+		03A25C1217927B76009DCFED /* xtalk_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BF317927B76009DCFED /* xtalk_util.c */; };
+		03A25C1317927B76009DCFED /* xtalk_variant.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25BF417927B76009DCFED /* xtalk_variant.c */; };
+		03A25C5D1793909F009DCFED /* xte_utf8_tables.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25C5C1793909F009DCFED /* xte_utf8_tables.c */; };
+		03A25C6017939135009DCFED /* xtalk_utf8_equal.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25C5F17939134009DCFED /* xtalk_utf8_equal.c */; };
+		03A25C6A1793B90A009DCFED /* stack_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A25C691793B90A009DCFED /* stack_sort.c */; };
+		03A9A0DD17D9604C006AD1C5 /* JHScriptEditorWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A9A0DC17D9604C006AD1C5 /* JHScriptEditorWindow.m */; };
+		03A9A0DF17D96764006AD1C5 /* xtalk_geo.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A9A0DE17D96763006AD1C5 /* xtalk_geo.c */; };
+		03A9A0F517DACAF9006AD1C5 /* JHIconManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A9A0F317DACAF9006AD1C5 /* JHIconManagerController.m */; };
+		03A9A0F617DACAF9006AD1C5 /* JHIconManagerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A9A0F417DACAF9006AD1C5 /* JHIconManagerController.xib */; };
+		03A9A0FC17DACB84006AD1C5 /* JHIconGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A9A0FB17DACB84006AD1C5 /* JHIconGrid.m */; };
+		03A9A0FE17DAD434006AD1C5 /* acu_iconmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A9A0FD17DAD434006AD1C5 /* acu_iconmgr.c */; };
+		03A9A10217DAD65C006AD1C5 /* stack_res.c in Sources */ = {isa = PBXBuildFile; fileRef = 03A9A10117DAD65B006AD1C5 /* stack_res.c */; };
+		03A9A10817DAF583006AD1C5 /* JHIconManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A9A10717DAF581006AD1C5 /* JHIconManager.m */; };
+		03A9A11517DC3B58006AD1C5 /* JHIconEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A9A11317DC3B56006AD1C5 /* JHIconEditController.m */; };
+		03A9A11617DC3B58006AD1C5 /* JHIconEditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A9A11417DC3B57006AD1C5 /* JHIconEditController.xib */; };
+		03ACFB2117DEAF3100D63710 /* BuiltinResources.cinsstak in Resources */ = {isa = PBXBuildFile; fileRef = 03ACFB2017DEAF1500D63710 /* BuiltinResources.cinsstak */; };
+		03ACFB2317DEB06F00D63710 /* acu_res.c in Sources */ = {isa = PBXBuildFile; fileRef = 03ACFB2217DEB06F00D63710 /* acu_res.c */; };
+		03B6071817B60FB50032B663 /* acu_thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 03B6071717B60FB40032B663 /* acu_thread.c */; };
+		03B6071B17B612F80032B663 /* acu_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 03B6071A17B612F80032B663 /* acu_util.c */; };
+		03B6072117B70BB00032B663 /* xtalk_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 03B6072017B70BB00032B663 /* xtalk_error.c */; };
+		03BA5C3517B073F300956D1D /* xtalk_srcfmat.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5C3417B073F300956D1D /* xtalk_srcfmat.c */; };
+		03BA5C3817B0740400956D1D /* xtalk_test_srcfmat.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5C3717B0740400956D1D /* xtalk_test_srcfmat.c */; };
+		03BA5C3B17B074E100956D1D /* JHScriptEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BA5C3A17B074E100956D1D /* JHScriptEditor.xib */; };
+		03BA5C3D17B0751500956D1D /* IconLineCheckpoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 03BA5C3C17B0751500956D1D /* IconLineCheckpoint.png */; };
+		03BA5C4117B0754B00956D1D /* JHCheckpointRuler.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5C4017B0754B00956D1D /* JHCheckpointRuler.m */; };
+		03BA5C4317B0755200956D1D /* JHxTalkTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5C4217B0755200956D1D /* JHxTalkTextView.m */; };
+		03BA5C4A17B076AB00956D1D /* JHScriptEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5C4917B076AB00956D1D /* JHScriptEditorController.m */; };
+		03BA5C6117B08DE700956D1D /* acu.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5C6017B08DE700956D1D /* acu.c */; };
+		03BA5C7017B0DBBA00956D1D /* stack_plat_osx.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5C6F17B0DBB900956D1D /* stack_plat_osx.c */; };
+		03BA5C7717B0F98F00956D1D /* stack_script.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5C7617B0F98E00956D1D /* stack_script.c */; };
+		03BA5C9117B1F96F00956D1D /* utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5C9017B1F96F00956D1D /* utilities.c */; };
+		03BA5C9317B1FAC300956D1D /* acu_stackmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5C9217B1FAC300956D1D /* acu_stackmgr.c */; };
+		03BA5C9517B1FE8700956D1D /* acu_handle.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5C9417B1FE8600956D1D /* acu_handle.c */; };
+		03BA5C9717B214D200956D1D /* ACUGlue.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5C9617B214D200956D1D /* ACUGlue.m */; };
+		03BA5C9B17B21F9500956D1D /* acu_view.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5C9A17B21F9500956D1D /* acu_view.c */; };
+		03BA5CAD17B25D5500956D1D /* xtalk_msgheir.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5CAC17B25D5500956D1D /* xtalk_msgheir.c */; };
+		03BA5CB417B3126400956D1D /* xtalk_hdlr.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BA5CB317B3126300956D1D /* xtalk_hdlr.c */; };
+		03BD3A031767C2CF00B69C54 /* cstritems.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BD3A011767C2CF00B69C54 /* cstritems.c */; };
+		03CF9FA317C5C06800EAA9EA /* acu_xtalk_evtq.c in Sources */ = {isa = PBXBuildFile; fileRef = 03CF9FA217C5C06800EAA9EA /* acu_xtalk_evtq.c */; };
+		03CF9FB617C6E18600EAA9EA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CF9FB517C6E18600EAA9EA /* QuartzCore.framework */; };
+		03CF9FBA17C6EB3F00EAA9EA /* JHCardView+VisualEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CF9FB917C6EB3E00EAA9EA /* JHCardView+VisualEffects.m */; };
+		03CF9FC417C73E1600EAA9EA /* JHAnswerDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CF9FC217C73E1600EAA9EA /* JHAnswerDialog.m */; };
+		03CF9FC517C73E1600EAA9EA /* JHAnswerDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CF9FC317C73E1600EAA9EA /* JHAnswerDialog.xib */; };
+		03CF9FD117C99DFE00EAA9EA /* JHAskDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CF9FCF17C99DFC00EAA9EA /* JHAskDialog.m */; };
+		03CF9FD217C99DFE00EAA9EA /* JHAskDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CF9FD017C99DFD00EAA9EA /* JHAskDialog.xib */; };
+		03CF9FF517CA0FBD00EAA9EA /* xtalk_conv.c in Sources */ = {isa = PBXBuildFile; fileRef = 03CF9FF417CA0FBD00EAA9EA /* xtalk_conv.c */; };
+		03CFA03617CAE69500EAA9EA /* xtalk_date.c in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA03517CAE69500EAA9EA /* xtalk_date.c */; };
+		03CFA04517CB12B700EAA9EA /* acu_xtalk_fileio.c in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA04417CB12B700EAA9EA /* acu_xtalk_fileio.c */; };
+		03CFA08017CC00E800EAA9EA /* acu_xt_cmds.c in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA07F17CC00E800EAA9EA /* acu_xt_cmds.c */; };
+		03CFA08317CC04C800EAA9EA /* acu_xt_objs.c in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA08217CC04C800EAA9EA /* acu_xt_objs.c */; };
+		03CFA08517CC04DE00EAA9EA /* acu_xt_props_obj.c in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA08417CC04DE00EAA9EA /* acu_xt_props_obj.c */; };
+		03CFA08717CC106C00EAA9EA /* acu_xt_defs.c in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA08617CC106B00EAA9EA /* acu_xt_defs.c */; };
+		03CFA08917CC3C7300EAA9EA /* acu_xt_const.c in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA08817CC3C7000EAA9EA /* acu_xt_const.c */; };
+		03CFA08C17CC464900EAA9EA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03CFA08A17CC464900EAA9EA /* Localizable.strings */; };
+		03CFA09417CC60EE00EAA9EA /* acu_xt_props_spec.c in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA09317CC60EB00EAA9EA /* acu_xt_props_spec.c */; };
+		03CFEFDB179790DA00FDF260 /* stack_test_integ_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 03CFEFDA179790DA00FDF260 /* stack_test_integ_1.c */; };
+		03DD527117CEDEA900632621 /* JHProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DD527017CEDEA800632621 /* JHProgressView.m */; };
+		03DE9FAC17C1960F002C29E9 /* acu_arpool.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DE9FAB17C1960F002C29E9 /* acu_arpool.c */; };
+		03DE9FB317C1AD66002C29E9 /* acu_xtalk_routine.c in Sources */ = {isa = PBXBuildFile; fileRef = 03DE9FB217C1AD65002C29E9 /* acu_xtalk_routine.c */; };
+		03EFFDE1176326450000F3CC /* JHPropertiesPalette.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03EFFDDF176326450000F3CC /* JHPropertiesPalette.xib */; };
+		03EFFDE517632A250000F3CC /* JHPropertiesPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFDE417632A250000F3CC /* JHPropertiesPalette.m */; };
+		03EFFDE817632AE40000F3CC /* JHCinsImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFDE717632AE40000F3CC /* JHCinsImp.m */; };
+		03EFFDEB176344CA0000F3CC /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFDE9176344CA0000F3CC /* sqlite3.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		03EFFDED176402050000F3CC /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFDEC176402050000F3CC /* stack.c */; };
+		03EFFDF4176427660000F3CC /* JHCardWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFDF3176427660000F3CC /* JHCardWindow.m */; };
+		03EFFE23176579B90000F3CC /* JHPushButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFE22176579B90000F3CC /* JHPushButton.m */; };
+		03EFFE27176598CA0000F3CC /* JHPropertiesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFE26176598CA0000F3CC /* JHPropertiesView.m */; };
+		03EFFE321765C81A0000F3CC /* JHTextFieldScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFE311765C81A0000F3CC /* JHTextFieldScroller.m */; };
+		03EFFE361765C8560000F3CC /* JHTransparentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFE351765C8560000F3CC /* JHTransparentButton.m */; };
+		03EFFE391765C9040000F3CC /* JHCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFE381765C9040000F3CC /* JHCheckBox.m */; };
+		03EFFE3C1765C9480000F3CC /* JHPicklist.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFE3B1765C9480000F3CC /* JHPicklist.m */; };
+		03EFFE3F1765C9980000F3CC /* JHTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFFE3E1765C9980000F3CC /* JHTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0314985917BEFAA500084858 /* acu_stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_stack.c; sourceTree = "<group>"; };
+		0314985B17BF010300084858 /* acu_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_error.c; sourceTree = "<group>"; };
+		0314985D17BF020200084858 /* acu_limits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = acu_limits.h; sourceTree = "<group>"; };
+		0314985E17BF028B00084858 /* acu_thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = acu_thread.h; sourceTree = "<group>"; };
+		0314985F17BF047600084858 /* acu_mem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_mem.c; sourceTree = "<group>"; };
+		031B245217B87BE500520385 /* xtalk_test_hdlr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_test_hdlr.c; sourceTree = "<group>"; };
+		0324B1A017D4281B00743271 /* acu_callback_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_callback_util.c; sourceTree = "<group>"; };
+		0324B21017D567BC00743271 /* utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = utilities.m; sourceTree = "<group>"; };
+		0324B21217D576F400743271 /* jhassert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jhassert.h; sourceTree = "<group>"; };
+		0324B21317D5A57900743271 /* xtalk_wait.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_wait.c; sourceTree = "<group>"; };
+		03369A4817C2DCBF00C46F0B /* acu_xtalk_dbug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xtalk_dbug.c; sourceTree = "<group>"; };
+		033E2111179744710023195D /* JHPropertiesPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPropertiesPanel.h; sourceTree = "<group>"; };
+		033E2112179744710023195D /* JHPropertiesPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPropertiesPanel.m; sourceTree = "<group>"; };
+		0342055317BF26DE00C745CD /* acu_xtalk_entry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xtalk_entry.c; sourceTree = "<group>"; };
+		0342055517BF848C00C745CD /* acu_xtalk_thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xtalk_thread.c; sourceTree = "<group>"; };
+		0342623D17A5C49700E50BE9 /* stack_lpic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_lpic.c; sourceTree = "<group>"; };
+		0342624017A5CDDA00E50BE9 /* JHMenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMenubarController.h; sourceTree = "<group>"; };
+		0342624117A5CDDA00E50BE9 /* JHMenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMenubarController.m; sourceTree = "<group>"; };
+		0342624317A5DA1A00E50BE9 /* paint_brush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_brush.m; sourceTree = "<group>"; };
+		0342624417A5DA1A00E50BE9 /* paint_bucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_bucket.m; sourceTree = "<group>"; };
+		0342624517A5DA1A00E50BE9 /* paint_eraser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_eraser.m; sourceTree = "<group>"; };
+		0342624617A5DA1A00E50BE9 /* paint_filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_filter.m; sourceTree = "<group>"; };
+		0342624717A5DA1A00E50BE9 /* paint_fliprot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_fliprot.m; sourceTree = "<group>"; };
+		0342624817A5DA1A00E50BE9 /* paint_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paint_int.h; sourceTree = "<group>"; };
+		0342624917A5DA1A00E50BE9 /* paint_io.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_io.m; sourceTree = "<group>"; };
+		0342624A17A5DA1A00E50BE9 /* paint_line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_line.m; sourceTree = "<group>"; };
+		0342624B17A5DA1A00E50BE9 /* paint_pencil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_pencil.m; sourceTree = "<group>"; };
+		0342624C17A5DA1A00E50BE9 /* paint_scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_scale.m; sourceTree = "<group>"; };
+		0342624D17A5DA1A00E50BE9 /* paint_select.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_select.m; sourceTree = "<group>"; };
+		0342624E17A5DA1A00E50BE9 /* paint_shape_bas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_shape_bas.m; sourceTree = "<group>"; };
+		0342624F17A5DA1A00E50BE9 /* paint_shape_free.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_shape_free.m; sourceTree = "<group>"; };
+		0342625017A5DA1A00E50BE9 /* paint_shape_poly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_shape_poly.m; sourceTree = "<group>"; };
+		0342625117A5DA1A00E50BE9 /* paint_spray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_spray.m; sourceTree = "<group>"; };
+		0342625217A5DA1A00E50BE9 /* paint_util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_util.m; sourceTree = "<group>"; };
+		0342625317A5DA1A00E50BE9 /* paint_xform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint_xform.m; sourceTree = "<group>"; };
+		0342625417A5DA1A00E50BE9 /* paint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paint.h; sourceTree = "<group>"; };
+		0342625517A5DA1A00E50BE9 /* paint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paint.m; sourceTree = "<group>"; };
+		0342628717A727D700E50BE9 /* JHCardView+UIActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHCardView+UIActions.h"; sourceTree = "<group>"; };
+		0342628817A727D700E50BE9 /* JHCardView+UIActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHCardView+UIActions.m"; sourceTree = "<group>"; };
+		0342628B17A72C5A00E50BE9 /* JHCardView+UIEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHCardView+UIEvents.h"; sourceTree = "<group>"; };
+		0342628C17A72C5A00E50BE9 /* JHCardView+UIEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHCardView+UIEvents.m"; sourceTree = "<group>"; };
+		0342628E17A72EA500E50BE9 /* JHCardView+LayoutSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHCardView+LayoutSelection.h"; sourceTree = "<group>"; };
+		0342628F17A72EA500E50BE9 /* JHCardView+LayoutSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHCardView+LayoutSelection.m"; sourceTree = "<group>"; };
+		0342629117A72F9B00E50BE9 /* JHCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHCardView.h; sourceTree = "<group>"; };
+		0342629217A730BA00E50BE9 /* JHCardView+UIDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHCardView+UIDrawing.h"; sourceTree = "<group>"; };
+		0342629317A730BA00E50BE9 /* JHCardView+UIDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHCardView+UIDrawing.m"; sourceTree = "<group>"; };
+		0342629517A7313A00E50BE9 /* JHCardView+LayoutManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHCardView+LayoutManagement.h"; sourceTree = "<group>"; };
+		0342629617A7313A00E50BE9 /* JHCardView+LayoutManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHCardView+LayoutManagement.m"; sourceTree = "<group>"; };
+		0342629817A7335F00E50BE9 /* JHCardView+Find.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHCardView+Find.h"; sourceTree = "<group>"; };
+		0342629917A7336000E50BE9 /* JHCardView+Find.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHCardView+Find.m"; sourceTree = "<group>"; };
+		0342629B17A737D200E50BE9 /* JHCardView+Paint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHCardView+Paint.h"; sourceTree = "<group>"; };
+		0342629C17A737D300E50BE9 /* JHCardView+Paint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHCardView+Paint.m"; sourceTree = "<group>"; };
+		0345F30317C1CC720098DF67 /* acu_xtalk_tglue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xtalk_tglue.c; sourceTree = "<group>"; };
+		0345F30617C1CFF00098DF67 /* acu_xtalk_uglue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xtalk_uglue.c; sourceTree = "<group>"; };
+		0345F31117C205710098DF67 /* JHMessageWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMessageWatcher.m; sourceTree = "<group>"; };
+		0345F31317C205810098DF67 /* JHVariableWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHVariableWatcher.m; sourceTree = "<group>"; };
+		0345F31517C205850098DF67 /* JHVariableWatcherEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHVariableWatcherEditor.m; sourceTree = "<group>"; };
+		0345F31717C205920098DF67 /* JHVariableWatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHVariableWatcher.h; sourceTree = "<group>"; };
+		0345F31817C205920098DF67 /* JHVariableWatcherEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHVariableWatcherEditor.h; sourceTree = "<group>"; };
+		0345F31917C205990098DF67 /* JHMessageWatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHMessageWatcher.h; sourceTree = "<group>"; };
+		0345F31A17C205A50098DF67 /* JHVariableWatcher.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHVariableWatcher.xib; sourceTree = "<group>"; };
+		0345F31C17C205AA0098DF67 /* JHMessageWatcher.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHMessageWatcher.xib; sourceTree = "<group>"; };
+		0345F31E17C205FB0098DF67 /* acu_xtalk_vars.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xtalk_vars.c; sourceTree = "<group>"; };
+		0355A0A8177D17EE009956E0 /* DocIconA.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = DocIconA.iconset; sourceTree = "<group>"; };
+		0355A0C1177D2109009956E0 /* AppIconPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconPic.png; sourceTree = "<group>"; };
+		0355A0C3177D21E7009956E0 /* stack_idtable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_idtable.c; sourceTree = "<group>"; };
+		035A6BAF17A4BA600003D168 /* JHLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLayerView.h; sourceTree = "<group>"; };
+		035A6BB017A4BA600003D168 /* JHLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLayerView.m; sourceTree = "<group>"; };
+		035A6BBB17A4FF230003D168 /* JHCursorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCursorController.h; sourceTree = "<group>"; };
+		035A6BBC17A4FF230003D168 /* JHCursorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCursorController.m; sourceTree = "<group>"; };
+		035A6BC017A4FF570003D168 /* CursorBrowse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CursorBrowse.png; path = Cursors/CursorBrowse.png; sourceTree = "<group>"; };
+		035A6BC117A4FF570003D168 /* CursorBucket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CursorBucket.png; path = Cursors/CursorBucket.png; sourceTree = "<group>"; };
+		035A6BC217A4FF570003D168 /* CursorCrosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CursorCrosshair.png; path = Cursors/CursorCrosshair.png; sourceTree = "<group>"; };
+		035A6BC317A4FF570003D168 /* CursorEraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CursorEraser.png; path = Cursors/CursorEraser.png; sourceTree = "<group>"; };
+		035A6BC417A4FF570003D168 /* CursorEyedropper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CursorEyedropper.png; path = Cursors/CursorEyedropper.png; sourceTree = "<group>"; };
+		035A6BC517A4FF570003D168 /* CursorPencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CursorPencil.png; path = Cursors/CursorPencil.png; sourceTree = "<group>"; };
+		035A6BC617A4FF570003D168 /* CursorRound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CursorRound.png; path = Cursors/CursorRound.png; sourceTree = "<group>"; };
+		035A6BCE17A500080003D168 /* brush_mask_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brush_mask_1.png; sourceTree = "<group>"; };
+		035A6BD017A500270003D168 /* ToolPaletteIcons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolPaletteIcons.png; sourceTree = "<group>"; };
+		035A6BD217A5020C0003D168 /* IconPadlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconPadlock.png; sourceTree = "<group>"; };
+		035A6BD717A503140003D168 /* JHColourPalette.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHColourPalette.xib; sourceTree = "<group>"; };
+		035A6BD817A503140003D168 /* JHColourPaletteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHColourPaletteController.h; sourceTree = "<group>"; };
+		035A6BD917A503140003D168 /* JHColourPaletteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHColourPaletteController.m; sourceTree = "<group>"; };
+		035A6BDA17A503140003D168 /* JHColourPaletteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHColourPaletteView.h; sourceTree = "<group>"; };
+		035A6BDB17A503140003D168 /* JHColourPaletteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHColourPaletteView.m; sourceTree = "<group>"; };
+		035A6BDF17A5031F0003D168 /* JHLineSizePalette.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHLineSizePalette.xib; sourceTree = "<group>"; };
+		035A6BE017A5031F0003D168 /* JHLineSizePaletteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLineSizePaletteController.h; sourceTree = "<group>"; };
+		035A6BE117A5031F0003D168 /* JHLineSizePaletteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLineSizePaletteController.m; sourceTree = "<group>"; };
+		035A6BE217A5031F0003D168 /* JHLineSizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLineSizeView.h; sourceTree = "<group>"; };
+		035A6BE317A5031F0003D168 /* JHLineSizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLineSizeView.m; sourceTree = "<group>"; };
+		035A6BE717A5032E0003D168 /* JHToolPalette.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHToolPalette.xib; sourceTree = "<group>"; };
+		035A6BE817A5032E0003D168 /* JHToolPaletteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHToolPaletteController.h; sourceTree = "<group>"; };
+		035A6BE917A5032E0003D168 /* JHToolPaletteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHToolPaletteController.m; sourceTree = "<group>"; };
+		035A6BEA17A5032E0003D168 /* JHToolPaletteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHToolPaletteView.h; sourceTree = "<group>"; };
+		035A6BEB17A5032E0003D168 /* JHToolPaletteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHToolPaletteView.m; sourceTree = "<group>"; };
+		035A6BEF17A503640003D168 /* JHTearOffMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTearOffMenuView.h; sourceTree = "<group>"; };
+		035A6BF017A503640003D168 /* JHTearOffMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTearOffMenuView.m; sourceTree = "<group>"; };
+		035A6BF217A503CD0003D168 /* tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
+		036E46F0176D34290041E9F6 /* stack_serbuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_serbuff.c; sourceTree = "<group>"; };
+		036E471C176F14AE0041E9F6 /* stack_int.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack_int.h; sourceTree = "<group>"; };
+		036E471E176F14C20041E9F6 /* stack_find.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_find.c; sourceTree = "<group>"; };
+		036E4720176F17C50041E9F6 /* stack_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_util.c; sourceTree = "<group>"; };
+		036E4722176F1B6C0041E9F6 /* stack_utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_utf8.c; sourceTree = "<group>"; };
+		036E47461770283A0041E9F6 /* JHMessagePalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMessagePalette.h; sourceTree = "<group>"; };
+		036E47471770283A0041E9F6 /* JHMessagePalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMessagePalette.m; sourceTree = "<group>"; };
+		036E47481770283A0041E9F6 /* JHMessagePalette.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHMessagePalette.xib; sourceTree = "<group>"; };
+		036E47881770472C0041E9F6 /* jhglobals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jhglobals.h; sourceTree = "<group>"; };
+		036E47A317719E7C0041E9F6 /* JHCardSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCardSize.h; sourceTree = "<group>"; };
+		036E47A417719E7C0041E9F6 /* JHCardSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCardSize.m; sourceTree = "<group>"; };
+		036E47A517719E7C0041E9F6 /* JHCardSize.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHCardSize.xib; sourceTree = "<group>"; };
+		036E47A817719F400041E9F6 /* JHCardSizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCardSizeView.h; sourceTree = "<group>"; };
+		036E47A917719F400041E9F6 /* JHCardSizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCardSizeView.m; sourceTree = "<group>"; };
+		037A15CB17BC44800080FC4F /* xtalk_platform_posix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_platform_posix.c; sourceTree = "<group>"; };
+		037DAADA17B9F28700AD6EBC /* xtalk_test_hdlr_loop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_test_hdlr_loop.c; sourceTree = "<group>"; };
+		037DAADD17B9F29500AD6EBC /* xtalk_test_hdlr_cond.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_test_hdlr_cond.c; sourceTree = "<group>"; };
+		037DAADF17B9F3FD00AD6EBC /* xtalk_test_hdlr_stmt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_test_hdlr_stmt.c; sourceTree = "<group>"; };
+		037DDBC21765D10100EECF41 /* JHAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAbout.h; sourceTree = "<group>"; };
+		037DDBC31765D10100EECF41 /* JHAbout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAbout.m; sourceTree = "<group>"; };
+		037DDBC61765D16600EECF41 /* JHAbout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHAbout.xib; sourceTree = "<group>"; };
+		037DDBD41765DC0D00EECF41 /* JHProtectStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHProtectStack.h; sourceTree = "<group>"; };
+		037DDBD51765DC0D00EECF41 /* JHProtectStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHProtectStack.m; sourceTree = "<group>"; };
+		037DDBD61765DC0D00EECF41 /* JHProtectStack.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHProtectStack.xib; sourceTree = "<group>"; };
+		03824EF91778FDA700D3A8CE /* jh_c_int.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jh_c_int.h; sourceTree = "<group>"; };
+		03824EFA177921CF00D3A8CE /* stack_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_error.c; sourceTree = "<group>"; };
+		03824EFC177924A000D3A8CE /* stack_seriz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_seriz.c; sourceTree = "<group>"; };
+		03824EFE177924B500D3A8CE /* stack_caches.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_caches.c; sourceTree = "<group>"; };
+		03824F001779256800D3A8CE /* stack_undo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_undo.c; sourceTree = "<group>"; };
+		03824F021779264500D3A8CE /* stack_props.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_props.c; sourceTree = "<group>"; };
+		03824F061779276400D3A8CE /* stack_widg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_widg.c; sourceTree = "<group>"; };
+		03824F081779291000D3A8CE /* stack_cards.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_cards.c; sourceTree = "<group>"; };
+		03861E09173CD01500665C26 /* CinsImp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinsImp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03861E0D173CD01500665C26 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03861E10173CD01500665C26 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03861E11173CD01500665C26 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03861E12173CD01500665C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03861E15173CD01500665C26 /* CinsImp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CinsImp-Info.plist"; sourceTree = "<group>"; };
+		03861E17173CD01500665C26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03861E19173CD01500665C26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03861E1B173CD01500665C26 /* CinsImp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CinsImp-Prefix.pch"; sourceTree = "<group>"; };
+		03861E1D173CD01500665C26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Acknowledgements.rtf; sourceTree = "<group>"; };
+		03861E1F173CD01500665C26 /* JHDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHDocument.h; sourceTree = "<group>"; };
+		03861E20173CD01500665C26 /* JHDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHDocument.m; sourceTree = "<group>"; };
+		03861E23173CD01500665C26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JHDocument.xib; sourceTree = "<group>"; };
+		03861E26173CD01500665C26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03861E2D173CD04500665C26 /* JHCardView+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHCardView+Base.h"; sourceTree = "<group>"; };
+		03861E2E173CD04500665C26 /* JHCardView+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHCardView+Base.m"; sourceTree = "<group>"; };
+		03861E30173CE1AE00665C26 /* JHSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSelectorView.h; sourceTree = "<group>"; };
+		03861E31173CE1AE00665C26 /* JHSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSelectorView.m; sourceTree = "<group>"; };
+		039FD94C1795F9AC00F823A0 /* stack_mem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_mem.c; sourceTree = "<group>"; };
+		039FD9561796552500F823A0 /* stack_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_test.c; sourceTree = "<group>"; };
+		03A25BBE17927894009DCFED /* AppIcon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = AppIcon.iconset; sourceTree = "<group>"; };
+		03A25BC917927907009DCFED /* sorter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sorter.c; sourceTree = "<group>"; };
+		03A25BCA17927907009DCFED /* sorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sorter.h; sourceTree = "<group>"; };
+		03A25BD117927B76009DCFED /* xtalk_ast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_ast.c; sourceTree = "<group>"; };
+		03A25BD217927B76009DCFED /* xtalk_bnf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_bnf.c; sourceTree = "<group>"; };
+		03A25BD317927B76009DCFED /* xtalk_chunk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_chunk.c; sourceTree = "<group>"; };
+		03A25BD417927B76009DCFED /* xtalk_class.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_class.c; sourceTree = "<group>"; };
+		03A25BD517927B76009DCFED /* xtalk_cmds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_cmds.c; sourceTree = "<group>"; };
+		03A25BD617927B76009DCFED /* xtalk_cmplogic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_cmplogic.c; sourceTree = "<group>"; };
+		03A25BD717927B76009DCFED /* xtalk_const.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_const.c; sourceTree = "<group>"; };
+		03A25BD817927B76009DCFED /* xtalk_engine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_engine.c; sourceTree = "<group>"; };
+		03A25BD917927B76009DCFED /* xtalk_engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xtalk_engine.h; sourceTree = "<group>"; };
+		03A25BDB17927B76009DCFED /* xtalk_exprs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_exprs.c; sourceTree = "<group>"; };
+		03A25BDC17927B76009DCFED /* xtalk_func.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_func.c; sourceTree = "<group>"; };
+		03A25BDD17927B76009DCFED /* xtalk_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xtalk_internal.h; sourceTree = "<group>"; };
+		03A25BDE17927B76009DCFED /* xtalk_interp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_interp.c; sourceTree = "<group>"; };
+		03A25BDF17927B76009DCFED /* xtalk_lexer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_lexer.c; sourceTree = "<group>"; };
+		03A25BE017927B76009DCFED /* xtalk_math.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_math.c; sourceTree = "<group>"; };
+		03A25BE117927B76009DCFED /* xtalk_mem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_mem.c; sourceTree = "<group>"; };
+		03A25BE217927B76009DCFED /* xtalk_mutate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_mutate.c; sourceTree = "<group>"; };
+		03A25BE317927B76009DCFED /* xtalk_ops.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_ops.c; sourceTree = "<group>"; };
+		03A25BE417927B76009DCFED /* xtalk_platform_mac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xtalk_platform_mac.m; sourceTree = "<group>"; };
+		03A25BE517927B76009DCFED /* xtalk_platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xtalk_platform.h; sourceTree = "<group>"; };
+		03A25BE617927B76009DCFED /* xtalk_prop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_prop.c; sourceTree = "<group>"; };
+		03A25BE717927B76009DCFED /* xtalk_refs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_refs.c; sourceTree = "<group>"; };
+		03A25BE817927B76009DCFED /* xtalk_string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_string.c; sourceTree = "<group>"; };
+		03A25BE917927B76009DCFED /* xtalk_syn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_syn.c; sourceTree = "<group>"; };
+		03A25BEA17927B76009DCFED /* xtalk_test_cmds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_test_cmds.c; sourceTree = "<group>"; };
+		03A25BEB17927B76009DCFED /* xtalk_test_exprs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_test_exprs.c; sourceTree = "<group>"; };
+		03A25BEC17927B76009DCFED /* xtalk_test_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xtalk_test_int.h; sourceTree = "<group>"; };
+		03A25BED17927B76009DCFED /* xtalk_test_lexer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_test_lexer.c; sourceTree = "<group>"; };
+		03A25BEE17927B76009DCFED /* xtalk_test_mem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_test_mem.c; sourceTree = "<group>"; };
+		03A25BEF17927B76009DCFED /* xtalk_test_msg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_test_msg.c; sourceTree = "<group>"; };
+		03A25BF017927B76009DCFED /* xtalk_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_test.c; sourceTree = "<group>"; };
+		03A25BF117927B76009DCFED /* xtalk_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xtalk_test.h; sourceTree = "<group>"; };
+		03A25BF217927B76009DCFED /* xtalk_utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_utf8.c; sourceTree = "<group>"; };
+		03A25BF317927B76009DCFED /* xtalk_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_util.c; sourceTree = "<group>"; };
+		03A25BF417927B76009DCFED /* xtalk_variant.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_variant.c; sourceTree = "<group>"; };
+		03A25C5C1793909F009DCFED /* xte_utf8_tables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xte_utf8_tables.c; sourceTree = "<group>"; };
+		03A25C5F17939134009DCFED /* xtalk_utf8_equal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_utf8_equal.c; sourceTree = "<group>"; };
+		03A25C691793B90A009DCFED /* stack_sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_sort.c; sourceTree = "<group>"; };
+		03A9A0D917D95E7C006AD1C5 /* JHAppScriptEditorNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHAppScriptEditorNotifications.h; sourceTree = "<group>"; };
+		03A9A0DB17D9604C006AD1C5 /* JHScriptEditorWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHScriptEditorWindow.h; sourceTree = "<group>"; };
+		03A9A0DC17D9604C006AD1C5 /* JHScriptEditorWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHScriptEditorWindow.m; sourceTree = "<group>"; };
+		03A9A0DE17D96763006AD1C5 /* xtalk_geo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_geo.c; sourceTree = "<group>"; };
+		03A9A0F217DACAF9006AD1C5 /* JHIconManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHIconManagerController.h; sourceTree = "<group>"; };
+		03A9A0F317DACAF9006AD1C5 /* JHIconManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHIconManagerController.m; sourceTree = "<group>"; };
+		03A9A0F417DACAF9006AD1C5 /* JHIconManagerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHIconManagerController.xib; sourceTree = "<group>"; };
+		03A9A0FA17DACB84006AD1C5 /* JHIconGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHIconGrid.h; sourceTree = "<group>"; };
+		03A9A0FB17DACB84006AD1C5 /* JHIconGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHIconGrid.m; sourceTree = "<group>"; };
+		03A9A0FD17DAD434006AD1C5 /* acu_iconmgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_iconmgr.c; sourceTree = "<group>"; };
+		03A9A10117DAD65B006AD1C5 /* stack_res.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_res.c; sourceTree = "<group>"; };
+		03A9A10617DAF581006AD1C5 /* JHIconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHIconManager.h; sourceTree = "<group>"; };
+		03A9A10717DAF581006AD1C5 /* JHIconManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHIconManager.m; sourceTree = "<group>"; };
+		03A9A11217DC3B55006AD1C5 /* JHIconEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHIconEditController.h; sourceTree = "<group>"; };
+		03A9A11317DC3B56006AD1C5 /* JHIconEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHIconEditController.m; sourceTree = "<group>"; };
+		03A9A11417DC3B57006AD1C5 /* JHIconEditController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHIconEditController.xib; sourceTree = "<group>"; };
+		03ACFB2017DEAF1500D63710 /* BuiltinResources.cinsstak */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuiltinResources.cinsstak; sourceTree = "<group>"; };
+		03ACFB2217DEB06F00D63710 /* acu_res.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_res.c; sourceTree = "<group>"; };
+		03B6069B17B5174E0032B663 /* xtalk_limits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xtalk_limits.h; sourceTree = "<group>"; };
+		03B6071717B60FB40032B663 /* acu_thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_thread.c; sourceTree = "<group>"; };
+		03B6071A17B612F80032B663 /* acu_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_util.c; sourceTree = "<group>"; };
+		03B6072017B70BB00032B663 /* xtalk_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_error.c; sourceTree = "<group>"; };
+		03BA5C3417B073F300956D1D /* xtalk_srcfmat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_srcfmat.c; sourceTree = "<group>"; };
+		03BA5C3717B0740400956D1D /* xtalk_test_srcfmat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_test_srcfmat.c; sourceTree = "<group>"; };
+		03BA5C3A17B074E100956D1D /* JHScriptEditor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHScriptEditor.xib; sourceTree = "<group>"; };
+		03BA5C3C17B0751500956D1D /* IconLineCheckpoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconLineCheckpoint.png; sourceTree = "<group>"; };
+		03BA5C3E17B0753900956D1D /* JHCheckpointRuler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHCheckpointRuler.h; sourceTree = "<group>"; };
+		03BA5C3F17B0754200956D1D /* JHxTalkTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHxTalkTextView.h; sourceTree = "<group>"; };
+		03BA5C4017B0754B00956D1D /* JHCheckpointRuler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCheckpointRuler.m; sourceTree = "<group>"; };
+		03BA5C4217B0755200956D1D /* JHxTalkTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHxTalkTextView.m; sourceTree = "<group>"; };
+		03BA5C4817B076AB00956D1D /* JHScriptEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHScriptEditorController.h; sourceTree = "<group>"; };
+		03BA5C4917B076AB00956D1D /* JHScriptEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHScriptEditorController.m; sourceTree = "<group>"; };
+		03BA5C5F17B08DDE00956D1D /* acu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = acu.h; sourceTree = "<group>"; };
+		03BA5C6017B08DE700956D1D /* acu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu.c; sourceTree = "<group>"; };
+		03BA5C6217B08E8D00956D1D /* acu_int.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = acu_int.h; sourceTree = "<group>"; };
+		03BA5C6F17B0DBB900956D1D /* stack_plat_osx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_plat_osx.c; sourceTree = "<group>"; };
+		03BA5C7617B0F98E00956D1D /* stack_script.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_script.c; sourceTree = "<group>"; };
+		03BA5C8F17B1F96600956D1D /* utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utilities.h; sourceTree = "<group>"; };
+		03BA5C9017B1F96F00956D1D /* utilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utilities.c; sourceTree = "<group>"; };
+		03BA5C9217B1FAC300956D1D /* acu_stackmgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_stackmgr.c; sourceTree = "<group>"; };
+		03BA5C9417B1FE8600956D1D /* acu_handle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_handle.c; sourceTree = "<group>"; };
+		03BA5C9617B214D200956D1D /* ACUGlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUGlue.m; sourceTree = "<group>"; };
+		03BA5C9A17B21F9500956D1D /* acu_view.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_view.c; sourceTree = "<group>"; };
+		03BA5CAC17B25D5500956D1D /* xtalk_msgheir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_msgheir.c; sourceTree = "<group>"; };
+		03BA5CB317B3126300956D1D /* xtalk_hdlr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_hdlr.c; sourceTree = "<group>"; };
+		03BD3A011767C2CF00B69C54 /* cstritems.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cstritems.c; sourceTree = "<group>"; };
+		03BD3A021767C2CF00B69C54 /* cstritems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cstritems.h; sourceTree = "<group>"; };
+		03CF9FA217C5C06800EAA9EA /* acu_xtalk_evtq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xtalk_evtq.c; sourceTree = "<group>"; };
+		03CF9FB517C6E18600EAA9EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		03CF9FB817C6EB3D00EAA9EA /* JHCardView+VisualEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JHCardView+VisualEffects.h"; sourceTree = "<group>"; };
+		03CF9FB917C6EB3E00EAA9EA /* JHCardView+VisualEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JHCardView+VisualEffects.m"; sourceTree = "<group>"; };
+		03CF9FC117C73E1600EAA9EA /* JHAnswerDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAnswerDialog.h; sourceTree = "<group>"; };
+		03CF9FC217C73E1600EAA9EA /* JHAnswerDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAnswerDialog.m; sourceTree = "<group>"; };
+		03CF9FC317C73E1600EAA9EA /* JHAnswerDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHAnswerDialog.xib; sourceTree = "<group>"; };
+		03CF9FCE17C99DFC00EAA9EA /* JHAskDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAskDialog.h; sourceTree = "<group>"; };
+		03CF9FCF17C99DFC00EAA9EA /* JHAskDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAskDialog.m; sourceTree = "<group>"; };
+		03CF9FD017C99DFD00EAA9EA /* JHAskDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHAskDialog.xib; sourceTree = "<group>"; };
+		03CF9FF417CA0FBD00EAA9EA /* xtalk_conv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_conv.c; sourceTree = "<group>"; };
+		03CFA03517CAE69500EAA9EA /* xtalk_date.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtalk_date.c; sourceTree = "<group>"; };
+		03CFA04417CB12B700EAA9EA /* acu_xtalk_fileio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xtalk_fileio.c; sourceTree = "<group>"; };
+		03CFA07F17CC00E800EAA9EA /* acu_xt_cmds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xt_cmds.c; sourceTree = "<group>"; };
+		03CFA08217CC04C800EAA9EA /* acu_xt_objs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xt_objs.c; sourceTree = "<group>"; };
+		03CFA08417CC04DE00EAA9EA /* acu_xt_props_obj.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xt_props_obj.c; sourceTree = "<group>"; };
+		03CFA08617CC106B00EAA9EA /* acu_xt_defs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xt_defs.c; sourceTree = "<group>"; };
+		03CFA08817CC3C7000EAA9EA /* acu_xt_const.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xt_const.c; sourceTree = "<group>"; };
+		03CFA08B17CC464900EAA9EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03CFA09317CC60EB00EAA9EA /* acu_xt_props_spec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xt_props_spec.c; sourceTree = "<group>"; };
+		03CFEFDA179790DA00FDF260 /* stack_test_integ_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_test_integ_1.c; sourceTree = "<group>"; };
+		03DD526F17CEDEA700632621 /* JHProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHProgressView.h; sourceTree = "<group>"; };
+		03DD527017CEDEA800632621 /* JHProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHProgressView.m; sourceTree = "<group>"; };
+		03DE9FAB17C1960F002C29E9 /* acu_arpool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_arpool.c; sourceTree = "<group>"; };
+		03DE9FB217C1AD65002C29E9 /* acu_xtalk_routine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acu_xtalk_routine.c; sourceTree = "<group>"; };
+		03EFFDE0176326450000F3CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JHPropertiesPalette.xib; sourceTree = "<group>"; };
+		03EFFDE317632A250000F3CC /* JHPropertiesPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPropertiesPalette.h; sourceTree = "<group>"; };
+		03EFFDE417632A250000F3CC /* JHPropertiesPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPropertiesPalette.m; sourceTree = "<group>"; };
+		03EFFDE617632AE40000F3CC /* JHCinsImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCinsImp.h; sourceTree = "<group>"; };
+		03EFFDE717632AE40000F3CC /* JHCinsImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCinsImp.m; sourceTree = "<group>"; };
+		03EFFDE9176344CA0000F3CC /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		03EFFDEA176344CA0000F3CC /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		03EFFDEC176402050000F3CC /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		03EFFDEE1764020E0000F3CC /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		03EFFDF2176427660000F3CC /* JHCardWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCardWindow.h; sourceTree = "<group>"; };
+		03EFFDF3176427660000F3CC /* JHCardWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCardWindow.m; sourceTree = "<group>"; };
+		03EFFE21176579B90000F3CC /* JHPushButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPushButton.h; sourceTree = "<group>"; };
+		03EFFE22176579B90000F3CC /* JHPushButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPushButton.m; sourceTree = "<group>"; };
+		03EFFE2417657A350000F3CC /* JHWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHWidget.h; sourceTree = "<group>"; };
+		03EFFE25176598CA0000F3CC /* JHPropertiesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPropertiesView.h; sourceTree = "<group>"; };
+		03EFFE26176598CA0000F3CC /* JHPropertiesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPropertiesView.m; sourceTree = "<group>"; };
+		03EFFE301765C81A0000F3CC /* JHTextFieldScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTextFieldScroller.h; sourceTree = "<group>"; };
+		03EFFE311765C81A0000F3CC /* JHTextFieldScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTextFieldScroller.m; sourceTree = "<group>"; };
+		03EFFE341765C8560000F3CC /* JHTransparentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTransparentButton.h; sourceTree = "<group>"; };
+		03EFFE351765C8560000F3CC /* JHTransparentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTransparentButton.m; sourceTree = "<group>"; };
+		03EFFE371765C9040000F3CC /* JHCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCheckBox.h; sourceTree = "<group>"; };
+		03EFFE381765C9040000F3CC /* JHCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCheckBox.m; sourceTree = "<group>"; };
+		03EFFE3A1765C9480000F3CC /* JHPicklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPicklist.h; sourceTree = "<group>"; };
+		03EFFE3B1765C9480000F3CC /* JHPicklist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPicklist.m; sourceTree = "<group>"; };
+		03EFFE3D1765C9980000F3CC /* JHTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTextField.h; sourceTree = "<group>"; };
+		03EFFE3E1765C9980000F3CC /* JHTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03861E06173CD01500665C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CF9FB617C6E18600EAA9EA /* QuartzCore.framework in Frameworks */,
+				03861E0E173CD01500665C26 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0342054717BF07DB00C745CD /* Cocoa-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				03EFFE401765C9B90000F3CC /* Application */,
+				03EFFE411765C9BF0000F3CC /* StackDocument */,
+			);
+			name = "Cocoa-OSX";
+			sourceTree = "<group>";
+		};
+		0342054917BF07ED00C745CD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				03BA5C5E17B08DB400956D1D /* ApplicationControlUnit */,
+				03EFFE431765CA140000F3CC /* StackFile */,
+				03824F0D1779611000D3A8CE /* xTalkEngine */,
+				03824F0E1779613000D3A8CE /* PaintEngine */,
+				03BA5C8D17B1F95100956D1D /* Utilities */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		0342054E17BF08B100C745CD /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				03A25BEC17927B76009DCFED /* xtalk_test_int.h */,
+				031B245217B87BE500520385 /* xtalk_test_hdlr.c */,
+				037DAADA17B9F28700AD6EBC /* xtalk_test_hdlr_loop.c */,
+				037DAADD17B9F29500AD6EBC /* xtalk_test_hdlr_cond.c */,
+				037DAADF17B9F3FD00AD6EBC /* xtalk_test_hdlr_stmt.c */,
+				03BA5C3717B0740400956D1D /* xtalk_test_srcfmat.c */,
+				03A25BEA17927B76009DCFED /* xtalk_test_cmds.c */,
+				03A25BEB17927B76009DCFED /* xtalk_test_exprs.c */,
+				03A25BED17927B76009DCFED /* xtalk_test_lexer.c */,
+				03A25BEE17927B76009DCFED /* xtalk_test_mem.c */,
+				03A25BEF17927B76009DCFED /* xtalk_test_msg.c */,
+				03A25BF017927B76009DCFED /* xtalk_test.c */,
+				03A25BF117927B76009DCFED /* xtalk_test.h */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		0342055017BF08CB00C745CD /* Unicode */ = {
+			isa = PBXGroup;
+			children = (
+				03A25BF217927B76009DCFED /* xtalk_utf8.c */,
+				03A25C5F17939134009DCFED /* xtalk_utf8_equal.c */,
+				03A25C5C1793909F009DCFED /* xte_utf8_tables.c */,
+			);
+			name = Unicode;
+			sourceTree = "<group>";
+		};
+		0342055117BF08EA00C745CD /* PlatformSpecific */ = {
+			isa = PBXGroup;
+			children = (
+				03A25BE517927B76009DCFED /* xtalk_platform.h */,
+				03A25BE417927B76009DCFED /* xtalk_platform_mac.m */,
+				037A15CB17BC44800080FC4F /* xtalk_platform_posix.c */,
+			);
+			name = PlatformSpecific;
+			sourceTree = "<group>";
+		};
+		0342055217BF090500C745CD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				03A25BE117927B76009DCFED /* xtalk_mem.c */,
+				03A25BF317927B76009DCFED /* xtalk_util.c */,
+				03A9A0DE17D96763006AD1C5 /* xtalk_geo.c */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		035A6BBF17A4FF4B0003D168 /* Cursors */ = {
+			isa = PBXGroup;
+			children = (
+				035A6BC017A4FF570003D168 /* CursorBrowse.png */,
+				035A6BC117A4FF570003D168 /* CursorBucket.png */,
+				035A6BC217A4FF570003D168 /* CursorCrosshair.png */,
+				035A6BC317A4FF570003D168 /* CursorEraser.png */,
+				035A6BC417A4FF570003D168 /* CursorEyedropper.png */,
+				035A6BC517A4FF570003D168 /* CursorPencil.png */,
+				035A6BC617A4FF570003D168 /* CursorRound.png */,
+			);
+			name = Cursors;
+			sourceTree = "<group>";
+		};
+		035A6BD417A502E40003D168 /* ColourPalette */ = {
+			isa = PBXGroup;
+			children = (
+				035A6BD717A503140003D168 /* JHColourPalette.xib */,
+				035A6BD817A503140003D168 /* JHColourPaletteController.h */,
+				035A6BD917A503140003D168 /* JHColourPaletteController.m */,
+				035A6BDA17A503140003D168 /* JHColourPaletteView.h */,
+				035A6BDB17A503140003D168 /* JHColourPaletteView.m */,
+			);
+			name = ColourPalette;
+			sourceTree = "<group>";
+		};
+		035A6BD517A502F30003D168 /* ToolPalette */ = {
+			isa = PBXGroup;
+			children = (
+				035A6BE717A5032E0003D168 /* JHToolPalette.xib */,
+				035A6BE817A5032E0003D168 /* JHToolPaletteController.h */,
+				035A6BE917A5032E0003D168 /* JHToolPaletteController.m */,
+				035A6BEA17A5032E0003D168 /* JHToolPaletteView.h */,
+				035A6BEB17A5032E0003D168 /* JHToolPaletteView.m */,
+			);
+			name = ToolPalette;
+			sourceTree = "<group>";
+		};
+		035A6BD617A502FA0003D168 /* LineSizePalette */ = {
+			isa = PBXGroup;
+			children = (
+				035A6BDF17A5031F0003D168 /* JHLineSizePalette.xib */,
+				035A6BE017A5031F0003D168 /* JHLineSizePaletteController.h */,
+				035A6BE117A5031F0003D168 /* JHLineSizePaletteController.m */,
+				035A6BE217A5031F0003D168 /* JHLineSizeView.h */,
+				035A6BE317A5031F0003D168 /* JHLineSizeView.m */,
+			);
+			name = LineSizePalette;
+			sourceTree = "<group>";
+		};
+		036E4744177027FD0041E9F6 /* MessageBox */ = {
+			isa = PBXGroup;
+			children = (
+				036E47461770283A0041E9F6 /* JHMessagePalette.h */,
+				036E47471770283A0041E9F6 /* JHMessagePalette.m */,
+				036E47481770283A0041E9F6 /* JHMessagePalette.xib */,
+			);
+			name = MessageBox;
+			sourceTree = "<group>";
+		};
+		036E47A117719E560041E9F6 /* CardSize */ = {
+			isa = PBXGroup;
+			children = (
+				036E47A317719E7C0041E9F6 /* JHCardSize.h */,
+				036E47A417719E7C0041E9F6 /* JHCardSize.m */,
+				036E47A517719E7C0041E9F6 /* JHCardSize.xib */,
+				036E47A817719F400041E9F6 /* JHCardSizeView.h */,
+				036E47A917719F400041E9F6 /* JHCardSizeView.m */,
+			);
+			name = CardSize;
+			sourceTree = "<group>";
+		};
+		037A15D917BCC6F80080FC4F /* MessageWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				0345F31917C205990098DF67 /* JHMessageWatcher.h */,
+				0345F31117C205710098DF67 /* JHMessageWatcher.m */,
+				0345F31C17C205AA0098DF67 /* JHMessageWatcher.xib */,
+			);
+			name = MessageWatcher;
+			sourceTree = "<group>";
+		};
+		037A15DB17BCC7000080FC4F /* VariableWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				0345F31717C205920098DF67 /* JHVariableWatcher.h */,
+				0345F31317C205810098DF67 /* JHVariableWatcher.m */,
+				0345F31A17C205A50098DF67 /* JHVariableWatcher.xib */,
+				0345F31817C205920098DF67 /* JHVariableWatcherEditor.h */,
+				0345F31517C205850098DF67 /* JHVariableWatcherEditor.m */,
+			);
+			name = VariableWatcher;
+			sourceTree = "<group>";
+		};
+		037DDBC81765D16A00EECF41 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				037DDBC21765D10100EECF41 /* JHAbout.h */,
+				037DDBC31765D10100EECF41 /* JHAbout.m */,
+				037DDBC61765D16600EECF41 /* JHAbout.xib */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		037DDBD31765DBDD00EECF41 /* ProtectStack */ = {
+			isa = PBXGroup;
+			children = (
+				037DDBD41765DC0D00EECF41 /* JHProtectStack.h */,
+				037DDBD51765DC0D00EECF41 /* JHProtectStack.m */,
+				037DDBD61765DC0D00EECF41 /* JHProtectStack.xib */,
+			);
+			name = ProtectStack;
+			sourceTree = "<group>";
+		};
+		03824F0A1779602700D3A8CE /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				03EFFDE617632AE40000F3CC /* JHCinsImp.h */,
+				03A9A0D917D95E7C006AD1C5 /* JHAppScriptEditorNotifications.h */,
+				03EFFDE717632AE40000F3CC /* JHCinsImp.m */,
+				0324B21017D567BC00743271 /* utilities.m */,
+				03BA5C9617B214D200956D1D /* ACUGlue.m */,
+				03861E25173CD01500665C26 /* MainMenu.xib */,
+				035A6BBB17A4FF230003D168 /* JHCursorController.h */,
+				035A6BBC17A4FF230003D168 /* JHCursorController.m */,
+				0342624017A5CDDA00E50BE9 /* JHMenubarController.h */,
+				0342624117A5CDDA00E50BE9 /* JHMenubarController.m */,
+				03861E19173CD01500665C26 /* main.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		03824F0B1779602D00D3A8CE /* SharedHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				036E47881770472C0041E9F6 /* jhglobals.h */,
+				03824EF91778FDA700D3A8CE /* jh_c_int.h */,
+				03861E1B173CD01500665C26 /* CinsImp-Prefix.pch */,
+				035A6BF217A503CD0003D168 /* tools.h */,
+				0324B21217D576F400743271 /* jhassert.h */,
+			);
+			name = SharedHeaders;
+			sourceTree = "<group>";
+		};
+		03824F0C177960D100D3A8CE /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				03861E1F173CD01500665C26 /* JHDocument.h */,
+				03861E20173CD01500665C26 /* JHDocument.m */,
+				03861E22173CD01500665C26 /* JHDocument.xib */,
+				03EFFDF2176427660000F3CC /* JHCardWindow.h */,
+				03EFFDF3176427660000F3CC /* JHCardWindow.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		03824F0D1779611000D3A8CE /* xTalkEngine */ = {
+			isa = PBXGroup;
+			children = (
+				03A25BD917927B76009DCFED /* xtalk_engine.h */,
+				03B6069B17B5174E0032B663 /* xtalk_limits.h */,
+				03A25BDD17927B76009DCFED /* xtalk_internal.h */,
+				03DD526117CEA92C00632621 /* Implementation */,
+				0342055217BF090500C745CD /* Utilities */,
+				0342055017BF08CB00C745CD /* Unicode */,
+				0342055117BF08EA00C745CD /* PlatformSpecific */,
+				0342054E17BF08B100C745CD /* Tests */,
+			);
+			name = xTalkEngine;
+			sourceTree = "<group>";
+		};
+		03824F0E1779613000D3A8CE /* PaintEngine */ = {
+			isa = PBXGroup;
+			children = (
+				0342625417A5DA1A00E50BE9 /* paint.h */,
+				0342624817A5DA1A00E50BE9 /* paint_int.h */,
+				0342625517A5DA1A00E50BE9 /* paint.m */,
+				0342624317A5DA1A00E50BE9 /* paint_brush.m */,
+				0342624417A5DA1A00E50BE9 /* paint_bucket.m */,
+				0342624517A5DA1A00E50BE9 /* paint_eraser.m */,
+				0342624617A5DA1A00E50BE9 /* paint_filter.m */,
+				0342624717A5DA1A00E50BE9 /* paint_fliprot.m */,
+				0342624917A5DA1A00E50BE9 /* paint_io.m */,
+				0342624A17A5DA1A00E50BE9 /* paint_line.m */,
+				0342624B17A5DA1A00E50BE9 /* paint_pencil.m */,
+				0342624C17A5DA1A00E50BE9 /* paint_scale.m */,
+				0342624D17A5DA1A00E50BE9 /* paint_select.m */,
+				0342624E17A5DA1A00E50BE9 /* paint_shape_bas.m */,
+				0342624F17A5DA1A00E50BE9 /* paint_shape_free.m */,
+				0342625017A5DA1A00E50BE9 /* paint_shape_poly.m */,
+				0342625117A5DA1A00E50BE9 /* paint_spray.m */,
+				0342625217A5DA1A00E50BE9 /* paint_util.m */,
+				0342625317A5DA1A00E50BE9 /* paint_xform.m */,
+			);
+			name = PaintEngine;
+			sourceTree = "<group>";
+		};
+		03861DFE173CD01500665C26 = {
+			isa = PBXGroup;
+			children = (
+				03861E13173CD01500665C26 /* CinsImp */,
+				03861E0C173CD01500665C26 /* Frameworks */,
+				03861E0A173CD01500665C26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03861E0A173CD01500665C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03861E09173CD01500665C26 /* CinsImp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03861E0C173CD01500665C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03861E0D173CD01500665C26 /* Cocoa.framework */,
+				03861E0F173CD01500665C26 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03861E0F173CD01500665C26 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03CF9FB517C6E18600EAA9EA /* QuartzCore.framework */,
+				03861E10173CD01500665C26 /* AppKit.framework */,
+				03861E11173CD01500665C26 /* CoreData.framework */,
+				03861E12173CD01500665C26 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03861E13173CD01500665C26 /* CinsImp */ = {
+			isa = PBXGroup;
+			children = (
+				0342054717BF07DB00C745CD /* Cocoa-OSX */,
+				0342054917BF07ED00C745CD /* Core */,
+			);
+			path = CinsImp;
+			sourceTree = "<group>";
+		};
+		03861E14173CD01500665C26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03CFA08D17CC465100EAA9EA /* en */,
+				03ACFB2017DEAF1500D63710 /* BuiltinResources.cinsstak */,
+				03BA5C3C17B0751500956D1D /* IconLineCheckpoint.png */,
+				035A6BD017A500270003D168 /* ToolPaletteIcons.png */,
+				035A6BCE17A500080003D168 /* brush_mask_1.png */,
+				035A6BBF17A4FF4B0003D168 /* Cursors */,
+				0355A0C1177D2109009956E0 /* AppIconPic.png */,
+				0355A0A8177D17EE009956E0 /* DocIconA.iconset */,
+				03A25BBE17927894009DCFED /* AppIcon.iconset */,
+				035A6BD217A5020C0003D168 /* IconPadlock.png */,
+				03861E15173CD01500665C26 /* CinsImp-Info.plist */,
+				03861E16173CD01500665C26 /* InfoPlist.strings */,
+				03861E1C173CD01500665C26 /* Acknowledgements.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		03A9A0F017DACACC006AD1C5 /* IconManager */ = {
+			isa = PBXGroup;
+			children = (
+				03A9A0F217DACAF9006AD1C5 /* JHIconManagerController.h */,
+				03A9A0F317DACAF9006AD1C5 /* JHIconManagerController.m */,
+				03A9A0F417DACAF9006AD1C5 /* JHIconManagerController.xib */,
+				03A9A0FA17DACB84006AD1C5 /* JHIconGrid.h */,
+				03A9A0FB17DACB84006AD1C5 /* JHIconGrid.m */,
+				03A9A10617DAF581006AD1C5 /* JHIconManager.h */,
+				03A9A10717DAF581006AD1C5 /* JHIconManager.m */,
+				03A9A11217DC3B55006AD1C5 /* JHIconEditController.h */,
+				03A9A11317DC3B56006AD1C5 /* JHIconEditController.m */,
+				03A9A11417DC3B57006AD1C5 /* JHIconEditController.xib */,
+			);
+			name = IconManager;
+			sourceTree = "<group>";
+		};
+		03BA5C3917B0749900956D1D /* Scripting */ = {
+			isa = PBXGroup;
+			children = (
+				03BA5C3A17B074E100956D1D /* JHScriptEditor.xib */,
+				03BA5C4817B076AB00956D1D /* JHScriptEditorController.h */,
+				03BA5C4917B076AB00956D1D /* JHScriptEditorController.m */,
+				03BA5C3F17B0754200956D1D /* JHxTalkTextView.h */,
+				03BA5C4217B0755200956D1D /* JHxTalkTextView.m */,
+				03BA5C3E17B0753900956D1D /* JHCheckpointRuler.h */,
+				03BA5C4017B0754B00956D1D /* JHCheckpointRuler.m */,
+				03A9A0DB17D9604C006AD1C5 /* JHScriptEditorWindow.h */,
+				03A9A0DC17D9604C006AD1C5 /* JHScriptEditorWindow.m */,
+			);
+			name = Scripting;
+			sourceTree = "<group>";
+		};
+		03BA5C5E17B08DB400956D1D /* ApplicationControlUnit */ = {
+			isa = PBXGroup;
+			children = (
+				03BA5C5F17B08DDE00956D1D /* acu.h */,
+				03BA5C6217B08E8D00956D1D /* acu_int.h */,
+				0314985D17BF020200084858 /* acu_limits.h */,
+				03DD526717CEB93800632621 /* Implementation */,
+				03DD526917CEB94000632621 /* Utilities */,
+				03DD526A17CEB94900632621 /* ThreadSupport */,
+			);
+			name = ApplicationControlUnit;
+			sourceTree = "<group>";
+		};
+		03BA5C8D17B1F95100956D1D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				03BA5C8F17B1F96600956D1D /* utilities.h */,
+				03BA5C9017B1F96F00956D1D /* utilities.c */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		03BD39FF1767C2C600B69C54 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				035A6BEF17A503640003D168 /* JHTearOffMenuView.h */,
+				035A6BF017A503640003D168 /* JHTearOffMenuView.m */,
+				03BD3A021767C2CF00B69C54 /* cstritems.h */,
+				03BD3A011767C2CF00B69C54 /* cstritems.c */,
+				03A25BCA17927907009DCFED /* sorter.h */,
+				03A25BC917927907009DCFED /* sorter.c */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		03CF9FBF17C73DEE00EAA9EA /* AskAnswer */ = {
+			isa = PBXGroup;
+			children = (
+				03CF9FC117C73E1600EAA9EA /* JHAnswerDialog.h */,
+				03CF9FC217C73E1600EAA9EA /* JHAnswerDialog.m */,
+				03CF9FC317C73E1600EAA9EA /* JHAnswerDialog.xib */,
+				03CF9FCE17C99DFC00EAA9EA /* JHAskDialog.h */,
+				03CF9FCF17C99DFC00EAA9EA /* JHAskDialog.m */,
+				03CF9FD017C99DFD00EAA9EA /* JHAskDialog.xib */,
+			);
+			name = AskAnswer;
+			sourceTree = "<group>";
+		};
+		03CFA08D17CC465100EAA9EA /* en */ = {
+			isa = PBXGroup;
+			children = (
+				03CFA08A17CC464900EAA9EA /* Localizable.strings */,
+			);
+			name = en;
+			sourceTree = "<group>";
+		};
+		03DD526117CEA92C00632621 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				03BA5CAC17B25D5500956D1D /* xtalk_msgheir.c */,
+				03BA5CB317B3126300956D1D /* xtalk_hdlr.c */,
+				03A25BD517927B76009DCFED /* xtalk_cmds.c */,
+				0324B21317D5A57900743271 /* xtalk_wait.c */,
+				03A25BDB17927B76009DCFED /* xtalk_exprs.c */,
+				03B6072017B70BB00032B663 /* xtalk_error.c */,
+				03A25BDE17927B76009DCFED /* xtalk_interp.c */,
+				03A25BD817927B76009DCFED /* xtalk_engine.c */,
+				03A25BF417927B76009DCFED /* xtalk_variant.c */,
+				03BA5C3417B073F300956D1D /* xtalk_srcfmat.c */,
+				03A25BD117927B76009DCFED /* xtalk_ast.c */,
+				03A25BD217927B76009DCFED /* xtalk_bnf.c */,
+				03A25BD317927B76009DCFED /* xtalk_chunk.c */,
+				03A25BD417927B76009DCFED /* xtalk_class.c */,
+				03A25BD617927B76009DCFED /* xtalk_cmplogic.c */,
+				03A25BD717927B76009DCFED /* xtalk_const.c */,
+				03A25BDC17927B76009DCFED /* xtalk_func.c */,
+				03A25BDF17927B76009DCFED /* xtalk_lexer.c */,
+				03A25BE017927B76009DCFED /* xtalk_math.c */,
+				03A25BE217927B76009DCFED /* xtalk_mutate.c */,
+				03CFA03517CAE69500EAA9EA /* xtalk_date.c */,
+				03A25BE317927B76009DCFED /* xtalk_ops.c */,
+				03A25BE617927B76009DCFED /* xtalk_prop.c */,
+				03A25BE717927B76009DCFED /* xtalk_refs.c */,
+				03A25BE817927B76009DCFED /* xtalk_string.c */,
+				03A25BE917927B76009DCFED /* xtalk_syn.c */,
+				03CF9FF417CA0FBD00EAA9EA /* xtalk_conv.c */,
+			);
+			name = Implementation;
+			sourceTree = "<group>";
+		};
+		03DD526717CEB93800632621 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				03BA5C6017B08DE700956D1D /* acu.c */,
+				0314985B17BF010300084858 /* acu_error.c */,
+				03BA5C9417B1FE8600956D1D /* acu_handle.c */,
+				03BA5C9217B1FAC300956D1D /* acu_stackmgr.c */,
+				0314985917BEFAA500084858 /* acu_stack.c */,
+				03CF9FA217C5C06800EAA9EA /* acu_xtalk_evtq.c */,
+				0342055517BF848C00C745CD /* acu_xtalk_thread.c */,
+				03DE9FB217C1AD65002C29E9 /* acu_xtalk_routine.c */,
+				0342055317BF26DE00C745CD /* acu_xtalk_entry.c */,
+				03CFA07F17CC00E800EAA9EA /* acu_xt_cmds.c */,
+				03CFA08417CC04DE00EAA9EA /* acu_xt_props_obj.c */,
+				03CFA09317CC60EB00EAA9EA /* acu_xt_props_spec.c */,
+				03CFA08217CC04C800EAA9EA /* acu_xt_objs.c */,
+				03CFA08817CC3C7000EAA9EA /* acu_xt_const.c */,
+				03CFA08617CC106B00EAA9EA /* acu_xt_defs.c */,
+				0345F30317C1CC720098DF67 /* acu_xtalk_tglue.c */,
+				0345F30617C1CFF00098DF67 /* acu_xtalk_uglue.c */,
+				0345F31E17C205FB0098DF67 /* acu_xtalk_vars.c */,
+				03369A4817C2DCBF00C46F0B /* acu_xtalk_dbug.c */,
+				03CFA04417CB12B700EAA9EA /* acu_xtalk_fileio.c */,
+				03BA5C9A17B21F9500956D1D /* acu_view.c */,
+				0324B1A017D4281B00743271 /* acu_callback_util.c */,
+				03A9A0FD17DAD434006AD1C5 /* acu_iconmgr.c */,
+				03ACFB2217DEB06F00D63710 /* acu_res.c */,
+			);
+			name = Implementation;
+			sourceTree = "<group>";
+		};
+		03DD526917CEB94000632621 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				03B6071A17B612F80032B663 /* acu_util.c */,
+				0314985F17BF047600084858 /* acu_mem.c */,
+				03DE9FAB17C1960F002C29E9 /* acu_arpool.c */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		03DD526A17CEB94900632621 /* ThreadSupport */ = {
+			isa = PBXGroup;
+			children = (
+				0314985E17BF028B00084858 /* acu_thread.h */,
+				03B6071717B60FB40032B663 /* acu_thread.c */,
+			);
+			name = ThreadSupport;
+			sourceTree = "<group>";
+		};
+		03EFFE401765C9B90000F3CC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				03824F0A1779602700D3A8CE /* Control */,
+				03824F0B1779602D00D3A8CE /* SharedHeaders */,
+				03EFFE421765C9EB0000F3CC /* Properties */,
+				037DDBC81765D16A00EECF41 /* About */,
+				036E4744177027FD0041E9F6 /* MessageBox */,
+				036E47A117719E560041E9F6 /* CardSize */,
+				03BD39FF1767C2C600B69C54 /* Utilities */,
+				03861E14173CD01500665C26 /* Resources */,
+				035A6BD517A502F30003D168 /* ToolPalette */,
+				035A6BD417A502E40003D168 /* ColourPalette */,
+				035A6BD617A502FA0003D168 /* LineSizePalette */,
+				037A15D917BCC6F80080FC4F /* MessageWatcher */,
+				037A15DB17BCC7000080FC4F /* VariableWatcher */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		03EFFE411765C9BF0000F3CC /* StackDocument */ = {
+			isa = PBXGroup;
+			children = (
+				03824F0C177960D100D3A8CE /* Control */,
+				03EFFE441765CA580000F3CC /* View */,
+				03CF9FBF17C73DEE00EAA9EA /* AskAnswer */,
+				03BA5C3917B0749900956D1D /* Scripting */,
+				03A9A0F017DACACC006AD1C5 /* IconManager */,
+				037DDBD31765DBDD00EECF41 /* ProtectStack */,
+			);
+			name = StackDocument;
+			sourceTree = "<group>";
+		};
+		03EFFE421765C9EB0000F3CC /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				03EFFDDF176326450000F3CC /* JHPropertiesPalette.xib */,
+				03EFFDE317632A250000F3CC /* JHPropertiesPalette.h */,
+				03EFFDE417632A250000F3CC /* JHPropertiesPalette.m */,
+				03EFFE25176598CA0000F3CC /* JHPropertiesView.h */,
+				03EFFE26176598CA0000F3CC /* JHPropertiesView.m */,
+				033E2111179744710023195D /* JHPropertiesPanel.h */,
+				033E2112179744710023195D /* JHPropertiesPanel.m */,
+			);
+			name = Properties;
+			sourceTree = "<group>";
+		};
+		03EFFE431765CA140000F3CC /* StackFile */ = {
+			isa = PBXGroup;
+			children = (
+				03EFFDEE1764020E0000F3CC /* stack.h */,
+				036E471C176F14AE0041E9F6 /* stack_int.h */,
+				03EFFDEC176402050000F3CC /* stack.c */,
+				03824F081779291000D3A8CE /* stack_cards.c */,
+				03824EFE177924B500D3A8CE /* stack_caches.c */,
+				03824F061779276400D3A8CE /* stack_widg.c */,
+				03824EFC177924A000D3A8CE /* stack_seriz.c */,
+				036E46F0176D34290041E9F6 /* stack_serbuff.c */,
+				0355A0C3177D21E7009956E0 /* stack_idtable.c */,
+				03824EFA177921CF00D3A8CE /* stack_error.c */,
+				036E4720176F17C50041E9F6 /* stack_util.c */,
+				039FD94C1795F9AC00F823A0 /* stack_mem.c */,
+				03EFFDE9176344CA0000F3CC /* sqlite3.c */,
+				03EFFDEA176344CA0000F3CC /* sqlite3.h */,
+				039FD9561796552500F823A0 /* stack_test.c */,
+				03CFEFDA179790DA00FDF260 /* stack_test_integ_1.c */,
+				03BA5C7617B0F98E00956D1D /* stack_script.c */,
+				0342623D17A5C49700E50BE9 /* stack_lpic.c */,
+				03824F021779264500D3A8CE /* stack_props.c */,
+				03A25C691793B90A009DCFED /* stack_sort.c */,
+				036E471E176F14C20041E9F6 /* stack_find.c */,
+				03824F001779256800D3A8CE /* stack_undo.c */,
+				036E4722176F1B6C0041E9F6 /* stack_utf8.c */,
+				03BA5C6F17B0DBB900956D1D /* stack_plat_osx.c */,
+				03A9A10117DAD65B006AD1C5 /* stack_res.c */,
+			);
+			name = StackFile;
+			sourceTree = "<group>";
+		};
+		03EFFE441765CA580000F3CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0342629117A72F9B00E50BE9 /* JHCardView.h */,
+				03861E2D173CD04500665C26 /* JHCardView+Base.h */,
+				03861E2E173CD04500665C26 /* JHCardView+Base.m */,
+				0342629217A730BA00E50BE9 /* JHCardView+UIDrawing.h */,
+				0342629317A730BA00E50BE9 /* JHCardView+UIDrawing.m */,
+				0342629517A7313A00E50BE9 /* JHCardView+LayoutManagement.h */,
+				0342629617A7313A00E50BE9 /* JHCardView+LayoutManagement.m */,
+				0342628E17A72EA500E50BE9 /* JHCardView+LayoutSelection.h */,
+				0342628F17A72EA500E50BE9 /* JHCardView+LayoutSelection.m */,
+				0342629B17A737D200E50BE9 /* JHCardView+Paint.h */,
+				0342629C17A737D300E50BE9 /* JHCardView+Paint.m */,
+				0342628B17A72C5A00E50BE9 /* JHCardView+UIEvents.h */,
+				0342628C17A72C5A00E50BE9 /* JHCardView+UIEvents.m */,
+				0342628717A727D700E50BE9 /* JHCardView+UIActions.h */,
+				0342628817A727D700E50BE9 /* JHCardView+UIActions.m */,
+				0342629817A7335F00E50BE9 /* JHCardView+Find.h */,
+				0342629917A7336000E50BE9 /* JHCardView+Find.m */,
+				03CF9FB817C6EB3D00EAA9EA /* JHCardView+VisualEffects.h */,
+				03CF9FB917C6EB3E00EAA9EA /* JHCardView+VisualEffects.m */,
+				035A6BAF17A4BA600003D168 /* JHLayerView.h */,
+				035A6BB017A4BA600003D168 /* JHLayerView.m */,
+				03EFFE2417657A350000F3CC /* JHWidget.h */,
+				03861E30173CE1AE00665C26 /* JHSelectorView.h */,
+				03861E31173CE1AE00665C26 /* JHSelectorView.m */,
+				03EFFE21176579B90000F3CC /* JHPushButton.h */,
+				03EFFE22176579B90000F3CC /* JHPushButton.m */,
+				03EFFE341765C8560000F3CC /* JHTransparentButton.h */,
+				03EFFE351765C8560000F3CC /* JHTransparentButton.m */,
+				03EFFE301765C81A0000F3CC /* JHTextFieldScroller.h */,
+				03EFFE311765C81A0000F3CC /* JHTextFieldScroller.m */,
+				03EFFE3D1765C9980000F3CC /* JHTextField.h */,
+				03EFFE3E1765C9980000F3CC /* JHTextField.m */,
+				03EFFE371765C9040000F3CC /* JHCheckBox.h */,
+				03EFFE381765C9040000F3CC /* JHCheckBox.m */,
+				03EFFE3A1765C9480000F3CC /* JHPicklist.h */,
+				03EFFE3B1765C9480000F3CC /* JHPicklist.m */,
+				03DD526F17CEDEA700632621 /* JHProgressView.h */,
+				03DD527017CEDEA800632621 /* JHProgressView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03861E08173CD01500665C26 /* CinsImp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03861E2A173CD01500665C26 /* Build configuration list for PBXNativeTarget "CinsImp" */;
+			buildPhases = (
+				03861E05173CD01500665C26 /* Sources */,
+				03861E06173CD01500665C26 /* Frameworks */,
+				03861E07173CD01500665C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CinsImp;
+			productName = CinsImp;
+			productReference = 03861E09173CD01500665C26 /* CinsImp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03861E00173CD01500665C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JH;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Joshua Hawcroft";
+			};
+			buildConfigurationList = 03861E03173CD01500665C26 /* Build configuration list for PBXProject "CinsImp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03861DFE173CD01500665C26;
+			productRefGroup = 03861E0A173CD01500665C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03861E08173CD01500665C26 /* CinsImp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03861E07173CD01500665C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ACFB2117DEAF3100D63710 /* BuiltinResources.cinsstak in Resources */,
+				03861E18173CD01500665C26 /* InfoPlist.strings in Resources */,
+				03861E1E173CD01500665C26 /* Acknowledgements.rtf in Resources */,
+				03861E24173CD01500665C26 /* JHDocument.xib in Resources */,
+				03861E27173CD01500665C26 /* MainMenu.xib in Resources */,
+				03EFFDE1176326450000F3CC /* JHPropertiesPalette.xib in Resources */,
+				037DDBC71765D16600EECF41 /* JHAbout.xib in Resources */,
+				037DDBD81765DC0D00EECF41 /* JHProtectStack.xib in Resources */,
+				036E474A1770283A0041E9F6 /* JHMessagePalette.xib in Resources */,
+				036E47A717719E7C0041E9F6 /* JHCardSize.xib in Resources */,
+				0355A0A9177D17EE009956E0 /* DocIconA.iconset in Resources */,
+				0355A0C2177D2109009956E0 /* AppIconPic.png in Resources */,
+				03A25BBF17927894009DCFED /* AppIcon.iconset in Resources */,
+				035A6BC717A4FF570003D168 /* CursorBrowse.png in Resources */,
+				035A6BC817A4FF570003D168 /* CursorBucket.png in Resources */,
+				035A6BC917A4FF570003D168 /* CursorCrosshair.png in Resources */,
+				035A6BCA17A4FF570003D168 /* CursorEraser.png in Resources */,
+				035A6BCB17A4FF570003D168 /* CursorEyedropper.png in Resources */,
+				035A6BCC17A4FF570003D168 /* CursorPencil.png in Resources */,
+				035A6BCD17A4FF570003D168 /* CursorRound.png in Resources */,
+				035A6BCF17A500080003D168 /* brush_mask_1.png in Resources */,
+				035A6BD117A500270003D168 /* ToolPaletteIcons.png in Resources */,
+				035A6BD317A5020C0003D168 /* IconPadlock.png in Resources */,
+				035A6BDC17A503140003D168 /* JHColourPalette.xib in Resources */,
+				035A6BE417A5031F0003D168 /* JHLineSizePalette.xib in Resources */,
+				035A6BEC17A5032E0003D168 /* JHToolPalette.xib in Resources */,
+				03BA5C3B17B074E100956D1D /* JHScriptEditor.xib in Resources */,
+				03BA5C3D17B0751500956D1D /* IconLineCheckpoint.png in Resources */,
+				0345F31B17C205A50098DF67 /* JHVariableWatcher.xib in Resources */,
+				0345F31D17C205AA0098DF67 /* JHMessageWatcher.xib in Resources */,
+				03CF9FC517C73E1600EAA9EA /* JHAnswerDialog.xib in Resources */,
+				03CF9FD217C99DFE00EAA9EA /* JHAskDialog.xib in Resources */,
+				03CFA08C17CC464900EAA9EA /* Localizable.strings in Resources */,
+				03A9A0F617DACAF9006AD1C5 /* JHIconManagerController.xib in Resources */,
+				03A9A11617DC3B58006AD1C5 /* JHIconEditController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03861E05173CD01500665C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03861E1A173CD01500665C26 /* main.m in Sources */,
+				03861E21173CD01500665C26 /* JHDocument.m in Sources */,
+				03861E2F173CD04500665C26 /* JHCardView+Base.m in Sources */,
+				03861E32173CE1AE00665C26 /* JHSelectorView.m in Sources */,
+				03EFFDE517632A250000F3CC /* JHPropertiesPalette.m in Sources */,
+				03EFFDE817632AE40000F3CC /* JHCinsImp.m in Sources */,
+				03EFFDEB176344CA0000F3CC /* sqlite3.c in Sources */,
+				03EFFDED176402050000F3CC /* stack.c in Sources */,
+				03EFFDF4176427660000F3CC /* JHCardWindow.m in Sources */,
+				03EFFE23176579B90000F3CC /* JHPushButton.m in Sources */,
+				03EFFE27176598CA0000F3CC /* JHPropertiesView.m in Sources */,
+				03EFFE321765C81A0000F3CC /* JHTextFieldScroller.m in Sources */,
+				03EFFE361765C8560000F3CC /* JHTransparentButton.m in Sources */,
+				03EFFE391765C9040000F3CC /* JHCheckBox.m in Sources */,
+				03EFFE3C1765C9480000F3CC /* JHPicklist.m in Sources */,
+				03EFFE3F1765C9980000F3CC /* JHTextField.m in Sources */,
+				037DDBC41765D10100EECF41 /* JHAbout.m in Sources */,
+				037DDBD71765DC0D00EECF41 /* JHProtectStack.m in Sources */,
+				03BD3A031767C2CF00B69C54 /* cstritems.c in Sources */,
+				036E46F2176D34290041E9F6 /* stack_serbuff.c in Sources */,
+				036E471F176F14C20041E9F6 /* stack_find.c in Sources */,
+				036E4721176F17C50041E9F6 /* stack_util.c in Sources */,
+				036E4723176F1B6C0041E9F6 /* stack_utf8.c in Sources */,
+				036E47491770283A0041E9F6 /* JHMessagePalette.m in Sources */,
+				036E47A617719E7C0041E9F6 /* JHCardSize.m in Sources */,
+				036E47AA17719F400041E9F6 /* JHCardSizeView.m in Sources */,
+				03824EFB177921CF00D3A8CE /* stack_error.c in Sources */,
+				03824EFD177924A000D3A8CE /* stack_seriz.c in Sources */,
+				03824EFF177924B500D3A8CE /* stack_caches.c in Sources */,
+				03824F011779256900D3A8CE /* stack_undo.c in Sources */,
+				03824F031779264500D3A8CE /* stack_props.c in Sources */,
+				03824F071779276500D3A8CE /* stack_widg.c in Sources */,
+				03824F091779291100D3A8CE /* stack_cards.c in Sources */,
+				0355A0C5177D21E7009956E0 /* stack_idtable.c in Sources */,
+				03A25BCB17927907009DCFED /* sorter.c in Sources */,
+				03A25BF517927B76009DCFED /* xtalk_ast.c in Sources */,
+				03A25BF617927B76009DCFED /* xtalk_bnf.c in Sources */,
+				03A25BF717927B76009DCFED /* xtalk_chunk.c in Sources */,
+				03A25BF817927B76009DCFED /* xtalk_class.c in Sources */,
+				03A25BF917927B76009DCFED /* xtalk_cmds.c in Sources */,
+				03A25BFA17927B76009DCFED /* xtalk_cmplogic.c in Sources */,
+				03A25BFB17927B76009DCFED /* xtalk_const.c in Sources */,
+				03A25BFC17927B76009DCFED /* xtalk_engine.c in Sources */,
+				03A25BFE17927B76009DCFED /* xtalk_exprs.c in Sources */,
+				03A25BFF17927B76009DCFED /* xtalk_func.c in Sources */,
+				03A25C0017927B76009DCFED /* xtalk_interp.c in Sources */,
+				03A25C0117927B76009DCFED /* xtalk_lexer.c in Sources */,
+				03A25C0217927B76009DCFED /* xtalk_math.c in Sources */,
+				03A25C0317927B76009DCFED /* xtalk_mem.c in Sources */,
+				03A25C0417927B76009DCFED /* xtalk_mutate.c in Sources */,
+				03A25C0517927B76009DCFED /* xtalk_ops.c in Sources */,
+				03A25C0617927B76009DCFED /* xtalk_platform_mac.m in Sources */,
+				03A25C0717927B76009DCFED /* xtalk_prop.c in Sources */,
+				03A25C0817927B76009DCFED /* xtalk_refs.c in Sources */,
+				03A25C0917927B76009DCFED /* xtalk_string.c in Sources */,
+				03A25C0A17927B76009DCFED /* xtalk_syn.c in Sources */,
+				03A25C0B17927B76009DCFED /* xtalk_test_cmds.c in Sources */,
+				03A25C0C17927B76009DCFED /* xtalk_test_exprs.c in Sources */,
+				03A25C0D17927B76009DCFED /* xtalk_test_lexer.c in Sources */,
+				03A25C0E17927B76009DCFED /* xtalk_test_mem.c in Sources */,
+				03A25C0F17927B76009DCFED /* xtalk_test_msg.c in Sources */,
+				03A25C1017927B76009DCFED /* xtalk_test.c in Sources */,
+				03A25C1117927B76009DCFED /* xtalk_utf8.c in Sources */,
+				03A25C1217927B76009DCFED /* xtalk_util.c in Sources */,
+				03A25C1317927B76009DCFED /* xtalk_variant.c in Sources */,
+				03A25C5D1793909F009DCFED /* xte_utf8_tables.c in Sources */,
+				03A25C6017939135009DCFED /* xtalk_utf8_equal.c in Sources */,
+				03A25C6A1793B90A009DCFED /* stack_sort.c in Sources */,
+				039FD94D1795F9AC00F823A0 /* stack_mem.c in Sources */,
+				039FD9571796552500F823A0 /* stack_test.c in Sources */,
+				033E2113179744710023195D /* JHPropertiesPanel.m in Sources */,
+				03CFEFDB179790DA00FDF260 /* stack_test_integ_1.c in Sources */,
+				035A6BB117A4BA600003D168 /* JHLayerView.m in Sources */,
+				035A6BBD17A4FF230003D168 /* JHCursorController.m in Sources */,
+				035A6BDD17A503140003D168 /* JHColourPaletteController.m in Sources */,
+				035A6BDE17A503140003D168 /* JHColourPaletteView.m in Sources */,
+				035A6BE517A5031F0003D168 /* JHLineSizePaletteController.m in Sources */,
+				035A6BE617A5031F0003D168 /* JHLineSizeView.m in Sources */,
+				035A6BED17A5032E0003D168 /* JHToolPaletteController.m in Sources */,
+				035A6BEE17A5032E0003D168 /* JHToolPaletteView.m in Sources */,
+				035A6BF117A503640003D168 /* JHTearOffMenuView.m in Sources */,
+				0342623E17A5C49700E50BE9 /* stack_lpic.c in Sources */,
+				0342624217A5CDDA00E50BE9 /* JHMenubarController.m in Sources */,
+				0342625617A5DA1A00E50BE9 /* paint_brush.m in Sources */,
+				0342625717A5DA1A00E50BE9 /* paint_bucket.m in Sources */,
+				0342625817A5DA1A00E50BE9 /* paint_eraser.m in Sources */,
+				0342625917A5DA1A00E50BE9 /* paint_filter.m in Sources */,
+				0342625A17A5DA1A00E50BE9 /* paint_fliprot.m in Sources */,
+				0342625B17A5DA1A00E50BE9 /* paint_io.m in Sources */,
+				0342625C17A5DA1A00E50BE9 /* paint_line.m in Sources */,
+				0342625D17A5DA1A00E50BE9 /* paint_pencil.m in Sources */,
+				0342625E17A5DA1A00E50BE9 /* paint_scale.m in Sources */,
+				0342625F17A5DA1A00E50BE9 /* paint_select.m in Sources */,
+				0342626017A5DA1A00E50BE9 /* paint_shape_bas.m in Sources */,
+				0342626117A5DA1A00E50BE9 /* paint_shape_free.m in Sources */,
+				0342626217A5DA1A00E50BE9 /* paint_shape_poly.m in Sources */,
+				0342626317A5DA1A00E50BE9 /* paint_spray.m in Sources */,
+				0342626417A5DA1A00E50BE9 /* paint_util.m in Sources */,
+				0342626517A5DA1A00E50BE9 /* paint_xform.m in Sources */,
+				0342626617A5DA1A00E50BE9 /* paint.m in Sources */,
+				0342628917A727D700E50BE9 /* JHCardView+UIActions.m in Sources */,
+				0342628D17A72C5A00E50BE9 /* JHCardView+UIEvents.m in Sources */,
+				0342629017A72EA500E50BE9 /* JHCardView+LayoutSelection.m in Sources */,
+				0342629417A730BA00E50BE9 /* JHCardView+UIDrawing.m in Sources */,
+				0342629717A7313A00E50BE9 /* JHCardView+LayoutManagement.m in Sources */,
+				0342629A17A7336000E50BE9 /* JHCardView+Find.m in Sources */,
+				0342629D17A737D400E50BE9 /* JHCardView+Paint.m in Sources */,
+				03BA5C3517B073F300956D1D /* xtalk_srcfmat.c in Sources */,
+				03BA5C3817B0740400956D1D /* xtalk_test_srcfmat.c in Sources */,
+				03BA5C4117B0754B00956D1D /* JHCheckpointRuler.m in Sources */,
+				03BA5C4317B0755200956D1D /* JHxTalkTextView.m in Sources */,
+				03BA5C4A17B076AB00956D1D /* JHScriptEditorController.m in Sources */,
+				03BA5C6117B08DE700956D1D /* acu.c in Sources */,
+				03BA5C7017B0DBBA00956D1D /* stack_plat_osx.c in Sources */,
+				03BA5C7717B0F98F00956D1D /* stack_script.c in Sources */,
+				03BA5C9117B1F96F00956D1D /* utilities.c in Sources */,
+				03BA5C9317B1FAC300956D1D /* acu_stackmgr.c in Sources */,
+				03BA5C9517B1FE8700956D1D /* acu_handle.c in Sources */,
+				03BA5C9717B214D200956D1D /* ACUGlue.m in Sources */,
+				03BA5C9B17B21F9500956D1D /* acu_view.c in Sources */,
+				03BA5CAD17B25D5500956D1D /* xtalk_msgheir.c in Sources */,
+				03BA5CB417B3126400956D1D /* xtalk_hdlr.c in Sources */,
+				03B6071817B60FB50032B663 /* acu_thread.c in Sources */,
+				03B6071B17B612F80032B663 /* acu_util.c in Sources */,
+				03B6072117B70BB00032B663 /* xtalk_error.c in Sources */,
+				031B245317B87BE500520385 /* xtalk_test_hdlr.c in Sources */,
+				037DAADB17B9F28700AD6EBC /* xtalk_test_hdlr_loop.c in Sources */,
+				037DAADE17B9F29500AD6EBC /* xtalk_test_hdlr_cond.c in Sources */,
+				037DAAE017B9F3FD00AD6EBC /* xtalk_test_hdlr_stmt.c in Sources */,
+				037A15CC17BC44800080FC4F /* xtalk_platform_posix.c in Sources */,
+				0314985A17BEFAA500084858 /* acu_stack.c in Sources */,
+				0314985C17BF010300084858 /* acu_error.c in Sources */,
+				0314986017BF047600084858 /* acu_mem.c in Sources */,
+				0342055417BF26DE00C745CD /* acu_xtalk_entry.c in Sources */,
+				0342055617BF848C00C745CD /* acu_xtalk_thread.c in Sources */,
+				03DE9FAC17C1960F002C29E9 /* acu_arpool.c in Sources */,
+				03DE9FB317C1AD66002C29E9 /* acu_xtalk_routine.c in Sources */,
+				0345F30417C1CC720098DF67 /* acu_xtalk_tglue.c in Sources */,
+				0345F30717C1CFF00098DF67 /* acu_xtalk_uglue.c in Sources */,
+				0345F31217C205710098DF67 /* JHMessageWatcher.m in Sources */,
+				0345F31417C205810098DF67 /* JHVariableWatcher.m in Sources */,
+				0345F31617C205850098DF67 /* JHVariableWatcherEditor.m in Sources */,
+				0345F31F17C205FB0098DF67 /* acu_xtalk_vars.c in Sources */,
+				03369A4917C2DCBF00C46F0B /* acu_xtalk_dbug.c in Sources */,
+				03CF9FA317C5C06800EAA9EA /* acu_xtalk_evtq.c in Sources */,
+				03CF9FBA17C6EB3F00EAA9EA /* JHCardView+VisualEffects.m in Sources */,
+				03CF9FC417C73E1600EAA9EA /* JHAnswerDialog.m in Sources */,
+				03CF9FD117C99DFE00EAA9EA /* JHAskDialog.m in Sources */,
+				03CF9FF517CA0FBD00EAA9EA /* xtalk_conv.c in Sources */,
+				03CFA03617CAE69500EAA9EA /* xtalk_date.c in Sources */,
+				03CFA04517CB12B700EAA9EA /* acu_xtalk_fileio.c in Sources */,
+				03CFA08017CC00E800EAA9EA /* acu_xt_cmds.c in Sources */,
+				03CFA08317CC04C800EAA9EA /* acu_xt_objs.c in Sources */,
+				03CFA08517CC04DE00EAA9EA /* acu_xt_props_obj.c in Sources */,
+				03CFA08717CC106C00EAA9EA /* acu_xt_defs.c in Sources */,
+				03CFA08917CC3C7300EAA9EA /* acu_xt_const.c in Sources */,
+				03CFA09417CC60EE00EAA9EA /* acu_xt_props_spec.c in Sources */,
+				03DD527117CEDEA900632621 /* JHProgressView.m in Sources */,
+				0324B1A117D4281B00743271 /* acu_callback_util.c in Sources */,
+				0324B21117D567BC00743271 /* utilities.m in Sources */,
+				0324B21417D5A57900743271 /* xtalk_wait.c in Sources */,
+				03A9A0DD17D9604C006AD1C5 /* JHScriptEditorWindow.m in Sources */,
+				03A9A0DF17D96764006AD1C5 /* xtalk_geo.c in Sources */,
+				03A9A0F517DACAF9006AD1C5 /* JHIconManagerController.m in Sources */,
+				03A9A0FC17DACB84006AD1C5 /* JHIconGrid.m in Sources */,
+				03A9A0FE17DAD434006AD1C5 /* acu_iconmgr.c in Sources */,
+				03A9A10217DAD65C006AD1C5 /* stack_res.c in Sources */,
+				03A9A10817DAF583006AD1C5 /* JHIconManager.m in Sources */,
+				03A9A11517DC3B58006AD1C5 /* JHIconEditController.m in Sources */,
+				03ACFB2317DEB06F00D63710 /* acu_res.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03861E16173CD01500665C26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03861E17173CD01500665C26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03861E1C173CD01500665C26 /* Acknowledgements.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03861E1D173CD01500665C26 /* en */,
+			);
+			name = Acknowledgements.rtf;
+			sourceTree = "<group>";
+		};
+		03861E22173CD01500665C26 /* JHDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03861E23173CD01500665C26 /* en */,
+			);
+			name = JHDocument.xib;
+			sourceTree = "<group>";
+		};
+		03861E25173CD01500665C26 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03861E26173CD01500665C26 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		03CFA08A17CC464900EAA9EA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CFA08B17CC464900EAA9EA /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		03EFFDDF176326450000F3CC /* JHPropertiesPalette.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03EFFDE0176326450000F3CC /* en */,
+			);
+			name = JHPropertiesPalette.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03861E28173CD01500665C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03861E29173CD01500665C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03861E2B173CD01500665C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CinsImp/CinsImp-Prefix.pch";
+				INFOPLIST_FILE = "CinsImp/CinsImp-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03861E2C173CD01500665C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CinsImp/CinsImp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "CinsImp/CinsImp-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03861E03173CD01500665C26 /* Build configuration list for PBXProject "CinsImp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03861E28173CD01500665C26 /* Debug */,
+				03861E29173CD01500665C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03861E2A173CD01500665C26 /* Build configuration list for PBXNativeTarget "CinsImp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03861E2B173CD01500665C26 /* Debug */,
+				03861E2C173CD01500665C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03861E00173CD01500665C26 /* Project object */;
+}

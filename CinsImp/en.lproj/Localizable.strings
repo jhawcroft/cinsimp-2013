@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  CinsImp
+
+  Created by Joshua Hawcroft on 27/08/13.
+  Copyright (c) 2013 Joshua Hawcroft. All rights reserved.
+*/
+
+/* Class name */
+"cdfld" = "card field";
+
+/* Class name */
+"bgfld" = "background field";
+
+/* Class name */
+"cdbtn" = "card button";
+
+/* Class name */
+"bgbtn" = "background button";
+
+/* object menu */
+"Card" = "Card";
+
+/* object menu */
+"Background" = "Background";
+
+/* stack closed unexpectedly or no longer available */
+"UNEXPECTED_STACK_CLOSURE" = "The stack \"%@\" has closed unexpectedly.";
+
+/* explanation for unexpected stack closure alert */
+"UNEXPECTED_STACK_CLOSURE_INFO" = "The media on which the stack was located has probably been removed or gone offline.";
+
+/* OK button */
+"OK" = "OK";
+
+/* Quit button */
+"Quit" = "Quit";
+
+/* Cancel button */
+"Cancel" = "Cancel";
+
+/* out of memory alert */
+"OUT_OF_MEMORY" = "CinsImp is out of memory and must now quit.";
+
+/* couldn't overwrite existing stack during New Stack */
+"CANT_OVERWRITE_STACK" = "Couldn't create stack \"%@\".";
+"CANT_OVERWRITE_STACK_INFO" = "A file with that name already exists and cannot be modified.";
+
+/* can't create new stack - locked media */
+"CANT_CREATE_STACK" = "Couldn't create stack \"%@\".";
+"CANT_CREATE_STACK_INFO" = "The volume or media may be locked.";
+
+/* CinsImp application */
+"INTERNAL_ERROR" = "Sorry, CinsImp has encountered an internal error and must now quit.";
+
+/* message box not available as there's no open stack */
+"MESSAGE_BOX_NOT_AVAILBLE" = "Sorry, the message box can't be used when there is no open stack.";
+
+/* can't perform that action */
+"NO_OPEN_STACK" = "Sorry, that command cannot be performed as there is no open stack.";
+
+/* Prompt to import icon */
+"PROMPT_IMPORT_ICON" = "Select an icon to import:";
+
+
+
+
